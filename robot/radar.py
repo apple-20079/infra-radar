@@ -55,7 +55,11 @@ EXCLUDE = re.compile(
     r"sales|trader|trading|equity research|research analyst|wealth|private bank|private client|"
     r"administrative|assistant|receptionist|facilities|alternance|apprenti|apprentice|"
     r"executive assistant|kyc|aml|anti-money|fund accounting|fund administration|treasury ops|"
-    r"middle office|back office|risk)\b", re.I)
+    r"middle office|back office|risk|risques|benefits|treasury|investor relations|public affairs|"
+    r"charitable|foundation|programmer|apps dev|architect|technical program|pricing|data(?! ?cent)|machine learning|"
+    r"quantitative|quant|contr[ôo]leur|commercial|[ée]v[èe]nementiel|ing[ée]nieur|ia|appels? d.offres|"
+    r"gestion priv[ée]e|global markets|markets (associate|analyst)|isa|it|functional|grc|dataops|evaluator|events?|"
+    r"loan servicing|mortgage|retail banking|branch|customer|client service|veterans)\b", re.I)
 START_HINT = re.compile(
     r"((january|february|march|april|may|june|july|august|september|october|november|december|"
     r"janvier|f[ée]vrier|mars|avril|mai|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|"
@@ -70,8 +74,32 @@ def city_of(text):
     return None
 
 
+MONTHS = {"jan": 1, "janv": 1, "january": 1, "janvier": 1, "feb": 2, "february": 2, "fevrier": 2, "février": 2,
+          "mar": 3, "march": 3, "mars": 3, "apr": 4, "april": 4, "avril": 4, "may": 5, "mai": 5, "jun": 6,
+          "june": 6, "juin": 6, "jul": 7, "july": 7, "juillet": 7, "aug": 8, "august": 8, "aout": 8, "août": 8,
+          "sep": 9, "sept": 9, "september": 9, "septembre": 9, "oct": 10, "october": 10, "octobre": 10,
+          "nov": 11, "november": 11, "novembre": 11, "dec": 12, "december": 12, "decembre": 12, "décembre": 12}
+
+
+def months_in(text):
+    out = []
+    for m in START_HINT.finditer(text or ""):
+        word = re.sub(r"\s+20\d\d$", "", m.group(1)).rstrip(".").lower()
+        n = MONTHS.get(word)
+        if n:
+            out.append(int("20" + m.group(3)) * 100 + n)
+    return out
+
+
+def too_early(title):
+    """Vrai si le titre annonce uniquement des débuts avant septembre 2027."""
+    ms = months_in(title)
+    return bool(ms) and max(ms) < 202709
+
+
 def title_ok(title):
-    return bool(title) and not EXCLUDE.search(title) and bool(INCLUDE.search(title))
+    return (bool(title) and not EXCLUDE.search(title) and bool(INCLUDE.search(title))
+            and not too_early(title))
 
 
 def keep(title, location):
@@ -239,13 +267,73 @@ def fetch_oracle(src):
     return out
 
 
-ADAPTERS = {"workday": fetch_workday, "greenhouse": fetch_greenhouse, "lever": fetch_lever,
+def fetch_eightfold(src):
+    host = f"https://{src['slug']}.eightfold.ai"
+    domain = src.get("domain") or f"{src['slug']}.com"
+    out, seen = [], set()
+    for term in ["analyst", "graduate", "intern", "off-cycle", "programme"]:
+        start = 0
+        while start < 200:
+            r = get(f"{host}/api/apply/v2/jobs", params={"domain": domain, "start": start, "num": 50, "query": term})
+            r.raise_for_status()
+            d = r.json()
+            for p in d.get("positions", []):
+                if p.get("id") in seen:
+                    continue
+                seen.add(p.get("id"))
+                ts = p.get("t_create")
+                out.append({"title": p.get("name"), "location": " | ".join(p.get("locations") or [p.get("location") or ""]),
+                            "url": p.get("canonicalPositionUrl") or f"{host}/careers/job/{p.get('id')}",
+                            "posted": dt.datetime.utcfromtimestamp(ts).date().isoformat() if ts else None,
+                            "description": clean(p.get("job_description"))})
+            start += 50
+            if start >= d.get("count", 0) or not d.get("positions"):
+                break
+    return out
+
+
+def fetch_recruitee(src):
+    r = get(f"https://{src['slug']}.recruitee.com/api/offers/")
+    r.raise_for_status()
+    out = []
+    for o in r.json().get("offers", []):
+        out.append({"title": o.get("title"), "location": ", ".join(x for x in [o.get("city"), o.get("country")] if x)
+                    or o.get("location") or "", "url": o.get("careers_url"),
+                    "posted": (o.get("published_at") or o.get("created_at") or "")[:10] or None,
+                    "description": clean(o.get("description"))})
+    return out
+
+
+def fetch_teamtailor(src):
+    r = get(f"https://{src['slug']}.teamtailor.com/jobs.rss")
+    r.raise_for_status()
+    out = []
+    for item in re.findall(r"<item>(.*?)</item>", r.text, re.S):
+        def tag(t):
+            m = re.search(rf"<{t}[^>]*>(.*?)</{t}>", item, re.S)
+            return html.unescape(re.sub(r"<!\[CDATA\[|\]\]>", "", m.group(1))).strip() if m else ""
+        posted = tag("pubDate")
+        try:
+            posted = dt.datetime.strptime(posted[:16], "%a, %d %b %Y").date().isoformat()
+        except ValueError:
+            posted = None
+        locs = " | ".join(re.findall(r"<tt:city>(.*?)</tt:city>", item)) or tag("tt:location") or tag("location")
+        out.append({"title": tag("title"), "location": locs or tag("description")[:200], "url": tag("link"),
+                    "posted": posted, "description": clean(tag("description"))})
+    return out
+
+
+ADAPTERS = {"eightfold": fetch_eightfold, "recruitee": fetch_recruitee, "teamtailor": fetch_teamtailor,
+            "workday": fetch_workday, "greenhouse": fetch_greenhouse, "lever": fetch_lever,
             "ashby": fetch_ashby, "smartrecruiters": fetch_smartrecruiters, "oracle": fetch_oracle}
 
 
 # ---------------------------------------------------------------- découverte
 ATS_PATTERNS = [
-    ("workday", re.compile(r"https?://([a-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-z]{2}-[A-Z]{2}/)?([A-Za-z0-9_\-]+)")),
+    ("workday", re.compile(r"https?://([a-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-zA-Z]{2}-[a-zA-Z]{2}/)?([A-Za-z0-9_\-]+)")),
+    ("eightfold", re.compile(r"https?://([a-z0-9\-]+)\.eightfold\.ai")),
+    ("recruitee", re.compile(r"https?://([a-z0-9\-]+)\.recruitee\.com")),
+    ("teamtailor", re.compile(r"https?://([a-z0-9\-]+)\.teamtailor\.com")),
     ("greenhouse", re.compile(r"(?:boards|job-boards)(?:\.eu)?\.greenhouse\.io/(?:embed/job_board\?for=)?([A-Za-z0-9_\-]+)")),
     ("lever", re.compile(r"jobs\.lever\.co/([A-Za-z0-9_\-]+)")),
     ("ashby", re.compile(r"jobs\.ashbyhq\.com/([A-Za-z0-9_\-.]+)")),
@@ -265,11 +353,15 @@ def from_url(u):
             continue
         if ats == "workday":
             tenant, shard, site = m.groups()
-            if site.lower() in {"job", "jobs", "login", "wday", "details"}:
+            if site.lower() in {"job", "jobs", "login", "wday", "details"} or re.fullmatch(r"[a-z]{2}-[a-z]{2}", site.lower()):
                 continue
             return {"ats": "workday", "host": f"{tenant}.{shard}.myworkdayjobs.com", "tenant": tenant, "site": site}
         if ats == "oracle":
             return {"ats": "oracle", "host": m.group(1), "site": m.group(2)}
+        if ats in ("eightfold", "recruitee", "teamtailor"):
+            if m.group(1) in {"www", "app", "careers", "jobs", "api"}:
+                continue
+            return {"ats": ats, "slug": m.group(1)}
         slug = m.group(1)
         if slug.lower() in SKIP_SLUGS:
             continue
@@ -313,18 +405,64 @@ def slug_guesses(name):
     return list(dict.fromkeys([full, short, first, short + "partners", full + "careers"]))[:5]
 
 
-def probe_board(ats, slug):
-    urls = {"greenhouse": f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs",
-            "lever": f"https://api.lever.co/v0/postings/{slug}?mode=json&limit=1",
-            "ashby": f"https://api.ashbyhq.com/posting-api/job-board/{slug}"}
+def name_key(name):
+    w = [x for x in re.sub(r"[^a-z0-9 ]", " ", re.sub(r"\(.*?\)", "", name.lower())).split()
+         if x not in {"the", "and", "co", "group", "management", "partners", "capital", "global", "investment",
+                      "investments", "company", "inc", "llc", "lp", "asset"}]
+    return w[0] if w else ""
+
+
+def probe_board(ats, slug, firm_name):
+    """Une source devinée n'est gardée que si elle appartient bien à l'acteur (nom retrouvé)."""
+    key = name_key(firm_name)
     try:
-        r = get(urls[ats])
-        if not r.ok:
-            return False
-        d = r.json()
-        return bool(d.get("jobs") if isinstance(d, dict) else d)
+        if ats == "greenhouse":
+            r = get(f"https://boards-api.greenhouse.io/v1/boards/{slug}")
+            return r.ok and key in (r.json().get("name") or "").lower()
+        if ats == "lever":
+            r = get(f"https://api.lever.co/v0/postings/{slug}", params={"mode": "json", "limit": 5})
+            d = r.json() if r.ok else []
+            return bool(d) and any(key in json.dumps(p).lower() for p in d)
+        if ats == "ashby":
+            r = get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}", params={"includeCompensation": "false"})
+            d = r.json() if r.ok else {}
+            return bool(d.get("jobs")) and any(key in json.dumps(p).lower() for p in d["jobs"][:5])
     except (requests.RequestException, ValueError):
         return False
+    return False
+
+
+WD_SHARDS = ["wd1", "wd3", "wd5", "wd103", "wd12", "wd10", "wd108"]
+WD_SITES = ["External", "Careers", "External_Careers", "{T}_Careers", "{t}", "{T}", "Campus", "Students",
+            "Early_Careers", "Experienced", "External_Career_Site", "{T}Careers"]
+
+
+def probe_workday(firm_name):
+    for tenant in slug_guesses(firm_name)[:2]:
+        if len(tenant) < 2:
+            continue
+        for shard in WD_SHARDS:
+            host = f"{tenant}.{shard}.myworkdayjobs.com"
+            try:
+                r = get(f"https://{host}/", allow_redirects=False)
+            except requests.RequestException:
+                continue
+            if r.status_code in (301, 302, 303, 307, 308):
+                site = from_url(urljoin(f"https://{host}/", r.headers.get("Location", "")))
+                if site and site.get("ats") == "workday":
+                    return site
+            if r.status_code >= 500 or r.status_code == 404:
+                continue
+            for pattern in WD_SITES:
+                site = pattern.replace("{T}", tenant.capitalize()).replace("{t}", tenant)
+                try:
+                    p = post(f"https://{host}/wday/cxs/{tenant}/{site}/jobs",
+                             json={"appliedFacets": {}, "limit": 1, "offset": 0, "searchText": ""})
+                except requests.RequestException:
+                    continue
+                if p.ok and "jobPostings" in p.text:
+                    return {"ats": "workday", "host": host, "tenant": tenant, "site": site, "guessed": True}
+    return None
 
 
 def discover(firm):
@@ -343,11 +481,15 @@ def discover(firm):
     if not found:
         for g in slug_guesses(firm["name"]):
             for ats in ("greenhouse", "lever", "ashby"):
-                if probe_board(ats, g):
+                if probe_board(ats, g, firm["name"]):
                     found.append({"ats": ats, "slug": g, "guessed": True})
                     break
             if found:
                 break
+    if not found:
+        wd = probe_workday(firm["name"])
+        if wd:
+            found.append(wd)
     return {"sources": found, "otherAts": sorted(others), "checked": TODAY.isoformat()}
 
 
@@ -455,10 +597,14 @@ def main():
         status["_vie"] = {"name": "Mon Volontariat International", "matched": 0,
                           "errors": [f"{type(e).__name__} {str(e)[:160]}"]}
 
-    final = {}
+    final, sig = {}, set()
     for j in jobs:
         if not j.get("url"):
             continue
+        key = (j["firm"], (j.get("title") or "").strip().lower(), j.get("city"))
+        if key in sig:
+            continue
+        sig.add(key)
         j["id"] = hashlib.sha1(j["url"].encode()).hexdigest()[:12]
         j["firstSeen"] = prev.get(j["url"], {}).get("firstSeen", TODAY.isoformat())
         j["startHints"] = start_hints((j.get("title") or "") + " " + (j.get("description") or ""))
