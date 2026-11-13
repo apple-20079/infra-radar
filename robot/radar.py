@@ -59,7 +59,8 @@ EXCLUDE = re.compile(
     r"charitable|foundation|programmer|apps dev|architect|technical program|pricing|data(?! ?cent)|machine learning|"
     r"quantitative|quant|contr[ôo]leur|commercial|[ée]v[èe]nementiel|ing[ée]nieur|ia|appels? d.offres|"
     r"gestion priv[ée]e|global markets|markets (associate|analyst)|isa|it|functional|grc|dataops|evaluator|events?|"
-    r"loan servicing|mortgage|retail banking|branch|customer|client service|veterans)\b", re.I)
+    r"loan servicing|mortgage|retail banking|branch|customer|client service|veterans|research|support|"
+    r"product analyst|ratings|ai|fixed income business|transformation)\b", re.I)
 START_HINT = re.compile(
     r"((january|february|march|april|may|june|july|august|september|october|november|december|"
     r"janvier|f[ée]vrier|mars|avril|mai|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|"
@@ -345,6 +346,16 @@ def fetch_htmllist(src):
                 loc = title + " " + full.replace("-", " ")
                 if not city_of(loc) and src.get("defaultCity", {}).get(page_url):
                     loc += " " + src["defaultCity"][page_url]
+                if not city_of(loc) and title_ok(title) and src.get("details", 0) > 0:
+                    src["details"] -= 1
+                    try:
+                        d = get(full)
+                        text = clean(d.text, 20000) if d.ok else ""
+                        c = city_of(text[:6000])
+                        if c:
+                            loc += " " + c
+                    except requests.RequestException:
+                        pass
                 out.append({"title": title, "location": loc, "url": full, "posted": None})
             if "{page}" not in page_url or not found:
                 break
@@ -576,6 +587,10 @@ def main():
         if firm.get("tier", 2) not in TIERS:
             continue
         fid = firm["id"]
+        if firm.get("noRobot"):
+            status[fid] = {"name": firm["name"], "sources": [], "matched": 0,
+                           "errors": ["pas de source automatique (couvert par la recherche web)"]}
+            continue
         sources = list(firm.get("sources") or [])
         d = disc.get(fid)
         stale = not d or (TODAY - dt.date.fromisoformat(d.get("checked", "2000-01-01"))).days > DISCOVERY_MAX_AGE_DAYS
@@ -601,6 +616,8 @@ def main():
                 continue
             st.setdefault("total", 0)
             st["total"] += len(raw)
+            if src["ats"] == "htmllist":
+                st["sample"] = [r_["title"] for r_ in raw[:12]]
             for j in raw:
                 if not title_ok(j.get("title")):
                     continue
@@ -639,8 +656,10 @@ def main():
         j["id"] = hashlib.sha1(j["url"].encode()).hexdigest()[:12]
         j["firstSeen"] = prev.get(j["url"], {}).get("firstSeen", TODAY.isoformat())
         j["startHints"] = start_hints((j.get("title") or "") + " " + (j.get("description") or ""))
-        if j["url"] in prev and not j.get("description"):
-            j["description"] = prev[j["url"]].get("description")
+        if j["url"] in prev:
+            for k in ("description", "posted"):
+                if not j.get(k) and prev[j["url"]].get(k):
+                    j[k] = prev[j["url"]][k]
         final[j["url"]] = j
 
     os.makedirs(DATA, exist_ok=True)
