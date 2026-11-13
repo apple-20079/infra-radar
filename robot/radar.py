@@ -334,11 +334,19 @@ def fetch_htmllist(src):
             if not r.ok:
                 break
             found = 0
-            for href, text in re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', r.text, re.S):
+            for m in re.finditer(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', r.text, re.S):
+                href, text = m.group(1), m.group(2)
                 full = urljoin(r.url, html.unescape(href))
                 if not re.search(src["link"], full) or full in seen:
                     continue
                 title = clean(text, 200)
+                if len(title) < 12 or re.fullmatch(r"(learn|read|find out|en savoir|voir|see|view|apply|postuler)[\w\s]*", title, re.I):
+                    before = r.text[max(0, m.start() - 2500):m.start()]
+                    heads = re.findall(r"<h[1-5][^>]*>(.*?)</h[1-5]>", before, re.S)
+                    title = clean(heads[-1], 200) if heads else ""
+                    if len(title) < 8:
+                        slug = full.rstrip("/").rsplit("/", 1)[-1]
+                        title = re.sub(r"^(ga|wm|am|fa)-", "", slug).replace("-", " ")
                 if len(title) < 8:
                     continue
                 seen.add(full)
