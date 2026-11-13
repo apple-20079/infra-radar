@@ -323,7 +323,35 @@ def fetch_teamtailor(src):
     return out
 
 
-ADAPTERS = {"eightfold": fetch_eightfold, "recruitee": fetch_recruitee, "teamtailor": fetch_teamtailor,
+def fetch_htmllist(src):
+    """Pages HTML listant des offres (ex. Rothschild & Co) : liens vers les fiches, titre = texte du lien."""
+    out, seen = [], set()
+    for page_url in src["pages"]:
+        for n in range(1, src.get("maxPages", 3) + 1):
+            url = page_url.replace("{page}", str(n))
+            r = get(url)
+            if not r.ok:
+                break
+            found = 0
+            for href, text in re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', r.text, re.S):
+                full = urljoin(r.url, html.unescape(href))
+                if not re.search(src["link"], full) or full in seen:
+                    continue
+                title = clean(text, 200)
+                if len(title) < 8:
+                    continue
+                seen.add(full)
+                found += 1
+                loc = title + " " + full.replace("-", " ")
+                if not city_of(loc) and src.get("defaultCity", {}).get(page_url):
+                    loc += " " + src["defaultCity"][page_url]
+                out.append({"title": title, "location": loc, "url": full, "posted": None})
+            if "{page}" not in page_url or not found:
+                break
+    return out
+
+
+ADAPTERS = {"htmllist": fetch_htmllist, "eightfold": fetch_eightfold, "recruitee": fetch_recruitee, "teamtailor": fetch_teamtailor,
             "workday": fetch_workday, "greenhouse": fetch_greenhouse, "lever": fetch_lever,
             "ashby": fetch_ashby, "smartrecruiters": fetch_smartrecruiters, "oracle": fetch_oracle}
 
@@ -438,10 +466,13 @@ WD_SITES = ["External", "Careers", "External_Careers", "{T}_Careers", "{t}", "{T
 
 
 def probe_workday(firm_name):
+    deadline = time.time() + 45
     for tenant in slug_guesses(firm_name)[:2]:
         if len(tenant) < 2:
             continue
         for shard in WD_SHARDS:
+            if time.time() > deadline:
+                return None
             host = f"{tenant}.{shard}.myworkdayjobs.com"
             try:
                 r = get(f"https://{host}/", allow_redirects=False)
@@ -451,7 +482,7 @@ def probe_workday(firm_name):
                 site = from_url(urljoin(f"https://{host}/", r.headers.get("Location", "")))
                 if site and site.get("ats") == "workday":
                     return site
-            if r.status_code >= 500 or r.status_code == 404:
+            if r.status_code != 200 or tenant not in r.text.lower():
                 continue
             for pattern in WD_SITES:
                 site = pattern.replace("{T}", tenant.capitalize()).replace("{t}", tenant)

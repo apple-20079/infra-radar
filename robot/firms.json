@@ -271,7 +271,21 @@
   "category": "Boutiques M&A",
   "tier": 1,
   "vie": true,
-  "careersUrl": "https://www.rothschildandco.com/en/careers/"
+  "careersUrl": "https://www.rothschildandco.com/en/careers/",
+  "sources": [
+   {
+    "ats": "htmllist",
+    "pages": [
+     "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/?page={page}",
+     "https://www.rothschildandco.com/fr/carrieres/etudiants-et-jeunes-diplomes/rechercher-un-programme/?page={page}"
+    ],
+    "link": "/(opportunities|rechercher-un-programme)/[a-z0-9\\-]{12,}/?$",
+    "maxPages": 4,
+    "defaultCity": {
+     "https://www.rothschildandco.com/fr/carrieres/etudiants-et-jeunes-diplomes/rechercher-un-programme/?page={page}": "Paris"
+    }
+   }
+  ]
  },
  {
   "id": "lazard",
@@ -598,7 +612,7 @@
   "sources": [
    {
     "ats": "greenhouse",
-    "slug": "kkr"
+    "slug": "stage"
    }
   ]
  },
