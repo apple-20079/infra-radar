@@ -51,7 +51,7 @@
    ],
    "matched": 4,
    "errors": [],
-   "total": 309
+   "total": 310
   },
   "morgan-stanley": {
    "name": "Morgan Stanley",
@@ -125,22 +125,22 @@
    "sources": [
     "htmllist:None/None"
    ],
-   "matched": 0,
+   "matched": 33,
    "errors": [],
    "total": 121,
    "sample": [
-    "Learn more",
-    "Learn more",
-    "Learn more",
-    "Learn more",
-    "Learn more",
-    "Learn more",
-    "Learn more",
-    "Learn more",
-    "Learn more",
-    "Learn more",
-    "Learn more",
-    "Learn more"
+    "2027 Global Advisory Long Term Internship - Singapore",
+    "Global Advisory - Spain - Madrid - Graduate 2027",
+    "2027 Global Advisory Summer Internship Programme - Hong Kong",
+    "Global Advisory - Spain - Madrid - Long Term Internship (6 months starting January or July 2027)",
+    "US 2028 Global Advisory Summer Analyst - Global Markets Solutions, New York",
+    "US Global Advisory | 2027 Sophomore Leadership Program",
+    "2027 UK Global Advisory Off-Cycle Internship",
+    "Global Advisory Internship - Poland 2027",
+    "2027 Off-Cycle Internship - Denmark Team",
+    "Stage – Transaction R & Co - Global Advisory – Juillet/Septembre 2027",
+    "Long Term Internship – Healthcare coverage team – Global Advisory – Juillet 2027",
+    "Long Term Internship – Sovereign Advisory – Juillet/Septembre 2027"
    ]
   },
   "lazard": {
