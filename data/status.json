@@ -49,9 +49,9 @@
    "sources": [
     "oracle:jpmc.fa.oraclecloud.com/CX_1001"
    ],
-   "matched": 4,
+   "matched": 5,
    "errors": [],
-   "total": 310
+   "total": 311
   },
   "morgan-stanley": {
    "name": "Morgan Stanley",
@@ -75,7 +75,7 @@
    "sources": [
     "workday:citi.wd5.myworkdayjobs.com/2"
    ],
-   "matched": 4,
+   "matched": 7,
    "errors": [],
    "total": 306
   },
@@ -125,7 +125,7 @@
    "sources": [
     "htmllist:None/None"
    ],
-   "matched": 33,
+   "matched": 14,
    "errors": [],
    "total": 121,
    "sample": [
