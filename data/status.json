@@ -49,35 +49,39 @@
    "sources": [
     "oracle:jpmc.fa.oraclecloud.com/CX_1001"
    ],
-   "matched": 14,
+   "matched": 5,
    "errors": [],
-   "total": 304
+   "total": 307
   },
   "morgan-stanley": {
    "name": "Morgan Stanley",
-   "sources": [],
+   "sources": [
+    "eightfold:morganstanley"
+   ],
    "matched": 0,
    "errors": [
-    "aucune source trouvée (logiciel repéré : eightfold.ai)"
+    "eightfold:morganstanley: HTTPError 403 Client Error: FORBIDDEN for url: https://morganstanley.eightfold.ai/api/apply/v2/jobs?domain=morganstanley.com&start"
    ]
   },
   "bank-of-america": {
    "name": "Bank of America",
    "sources": [
-    "workday:ghr.wd1.myworkdayjobs.com/en-us"
+    "workday:ghr.wd1.myworkdayjobs.com/lateral-us"
    ],
-   "matched": 0,
-   "errors": [
-    "workday:ghr.wd1.myworkdayjobs.com/en-us: HTTPError 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
-   ]
+   "matched": 2,
+   "errors": [],
+   "total": 569
   },
   "citi": {
    "name": "Citi",
    "sources": [
+    "eightfold:citi",
     "workday:citi.wd5.myworkdayjobs.com/2"
    ],
-   "matched": 8,
-   "errors": [],
+   "matched": 4,
+   "errors": [
+    "eightfold:citi: HTTPError 403 Client Error: FORBIDDEN for url: https://citi.eightfold.ai/api/apply/v2/jobs?domain=citi.com&start=0&num=50&query=an"
+   ],
    "total": 308
   },
   "barclays": {
@@ -85,9 +89,9 @@
    "sources": [
     "workday:barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays"
    ],
-   "matched": 5,
+   "matched": 3,
    "errors": [],
-   "total": 433
+   "total": 435
   },
   "hsbc": {
    "name": "HSBC",
@@ -123,11 +127,12 @@
   },
   "rothschild-co": {
    "name": "Rothschild & Co",
-   "sources": [],
+   "sources": [
+    "htmllist:None/None"
+   ],
    "matched": 0,
-   "errors": [
-    "aucune source trouvée"
-   ]
+   "errors": [],
+   "total": 121
   },
   "lazard": {
    "name": "Lazard",
@@ -135,7 +140,7 @@
     "oracle:icbpjb.fa.ocs.oraclecloud.com/LazardProfessionalCareers",
     "oracle:icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers"
    ],
-   "matched": 38,
+   "matched": 2,
    "errors": [],
    "total": 228
   },
@@ -152,7 +157,7 @@
    "sources": [
     "workday:pjtpartners.wd1.myworkdayjobs.com/Careers"
    ],
-   "matched": 8,
+   "matched": 7,
    "errors": [],
    "total": 52
   },
@@ -197,7 +202,7 @@
     "workday:hl.wd1.myworkdayjobs.com/Lateral",
     "workday:hl.wd1.myworkdayjobs.com/Corporate"
    ],
-   "matched": 12,
+   "matched": 8,
    "errors": [],
    "total": 153
   },
@@ -272,28 +277,27 @@
     "workday:blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers",
     "workday:blackstone.wd1.myworkdayjobs.com/Blackstone_Careers"
    ],
-   "matched": 7,
+   "matched": 5,
    "errors": [],
    "total": 99
   },
   "kkr": {
    "name": "KKR",
    "sources": [
-    "greenhouse:kkr"
+    "greenhouse:stage"
    ],
-   "matched": 0,
-   "errors": [
-    "greenhouse:kkr: HTTPError 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/kkr/jobs?content=true"
-   ]
+   "matched": 3,
+   "errors": [],
+   "total": 136
   },
   "apollo-global-management": {
    "name": "Apollo Global Management",
    "sources": [
     "workday:athene.wd5.myworkdayjobs.com/Apollo_Careers"
    ],
-   "matched": 1,
+   "matched": 0,
    "errors": [],
-   "total": 53
+   "total": 52
   },
   "carlyle": {
    "name": "Carlyle",
@@ -325,7 +329,7 @@
    "sources": [
     "workday:brookfield.wd5.myworkdayjobs.com/brookfield"
    ],
-   "matched": 3,
+   "matched": 2,
    "errors": [],
    "total": 120
   },
@@ -374,7 +378,7 @@
    "sources": [
     "workday:blueowl.wd1.myworkdayjobs.com/blueowl"
    ],
-   "matched": 3,
+   "matched": 2,
    "errors": [],
    "total": 50
   },
@@ -406,11 +410,12 @@
   },
   "antin-infrastructure-partners": {
    "name": "Antin Infrastructure Partners",
-   "sources": [],
+   "sources": [
+    "teamtailor:antininfrastructurepartners-1655458195"
+   ],
    "matched": 0,
-   "errors": [
-    "aucune source trouvée (logiciel repéré : teamtailor.com)"
-   ]
+   "errors": [],
+   "total": 1
   },
   "infravia-capital-partners": {
    "name": "InfraVia Capital Partners",
@@ -422,11 +427,12 @@
   },
   "i-squared-capital": {
    "name": "I Squared Capital",
-   "sources": [],
+   "sources": [
+    "greenhouse:isquaredcapital"
+   ],
    "matched": 0,
-   "errors": [
-    "aucune source trouvée"
-   ]
+   "errors": [],
+   "total": 0
   },
   "stonepeak": {
    "name": "Stonepeak",
@@ -463,11 +469,12 @@
   },
   "meridiam": {
    "name": "Meridiam",
-   "sources": [],
+   "sources": [
+    "recruitee:meridiam"
+   ],
    "matched": 0,
-   "errors": [
-    "aucune source trouvée (logiciel repéré : recruitee.com)"
-   ]
+   "errors": [],
+   "total": 5
   },
   "vauban-infrastructure-partners": {
    "name": "Vauban Infrastructure Partners",
@@ -503,12 +510,11 @@
   },
   "ecp": {
    "name": "ECP",
-   "sources": [
-    "greenhouse:ecp"
-   ],
+   "sources": [],
    "matched": 0,
-   "errors": [],
-   "total": 8
+   "errors": [
+    "aucune source trouvée"
+   ]
   },
   "cube-infrastructure-managers": {
    "name": "Cube Infrastructure Managers",
@@ -532,7 +538,7 @@
    "sources": [],
    "matched": 0,
    "errors": [
-    "aucune source trouvée"
+    "aucune source trouvée (logiciel repéré : erreur: ReadTimeout)"
    ]
   },
   "temasek": {

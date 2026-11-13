@@ -1,0 +1,515 @@
+{
+ "antin-infrastructure-partners": {
+  "checked": "2026-11-13",
+  "otherAts": [
+   "teamtailor.com"
+  ],
+  "sources": [
+   {
+    "ats": "teamtailor",
+    "slug": "antininfrastructurepartners-1655458195"
+   }
+  ]
+ },
+ "apollo-global-management": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "athene.wd5.myworkdayjobs.com",
+    "site": "Apollo_Careers",
+    "tenant": "athene"
+   }
+  ]
+ },
+ "ardian": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "ares-management": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "astris-finance": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "augusta-co": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "bank-of-america": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "ghr.wd1.myworkdayjobs.com",
+    "site": "lateral-us",
+    "tenant": "ghr"
+   }
+  ]
+ },
+ "barclays": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "barclays.wd3.myworkdayjobs.com",
+    "site": "External_Career_Site_Barclays",
+    "tenant": "barclays"
+   }
+  ]
+ },
+ "blue-owl-capital": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "blueowl.wd1.myworkdayjobs.com",
+    "site": "blueowl",
+    "tenant": "blueowl"
+   }
+  ]
+ },
+ "bnp-paribas": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "carlyle": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "cdpq-la-caisse": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "cdpq.wd10.myworkdayjobs.com",
+    "site": "CDPQ",
+    "tenant": "cdpq"
+   },
+   {
+    "ats": "workday",
+    "host": "cdpq.wd10.myworkdayjobs.com",
+    "site": "CDPQ-recrutement-universitaire",
+    "tenant": "cdpq"
+   }
+  ]
+ },
+ "centerview-partners": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "citi": {
+  "checked": "2026-11-13",
+  "otherAts": [
+   "eightfold.ai"
+  ],
+  "sources": [
+   {
+    "ats": "eightfold",
+    "slug": "citi"
+   },
+   {
+    "ats": "workday",
+    "host": "citi.wd5.myworkdayjobs.com",
+    "site": "2",
+    "tenant": "citi"
+   }
+  ]
+ },
+ "copenhagen-infrastructure-partners": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "cpp-investments": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "credit-agricole-cib": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "cube-infrastructure-managers": {
+  "checked": "2026-11-13",
+  "otherAts": [
+   "erreur: ConnectionError"
+  ],
+  "sources": [
+   {
+    "ats": "ashby",
+    "guessed": true,
+    "slug": "cube"
+   }
+  ]
+ },
+ "cvc": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "cvc-dif": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "deutsche-bank": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "digitalbridge": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "slug": "digitalbridge"
+   }
+  ]
+ },
+ "ecp": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "eqt": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "eqtpartners"
+   }
+  ]
+ },
+ "eurazeo": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "evercore": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "gic": {
+  "checked": "2026-11-13",
+  "otherAts": [
+   "erreur: ReadTimeout"
+  ],
+  "sources": []
+ },
+ "global-infrastructure-partners-blackrock": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "goldman-sachs": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "green-giraffe": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "houlihan-lokey": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "hl.wd1.myworkdayjobs.com",
+    "site": "Campus",
+    "tenant": "hl"
+   },
+   {
+    "ats": "workday",
+    "host": "hl.wd1.myworkdayjobs.com",
+    "site": "Lateral",
+    "tenant": "hl"
+   },
+   {
+    "ats": "workday",
+    "host": "hl.wd1.myworkdayjobs.com",
+    "site": "Corporate",
+    "tenant": "hl"
+   }
+  ]
+ },
+ "hps-investment-partners": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "hpsinvestmentpartners"
+   }
+  ]
+ },
+ "hsbc": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "i-squared-capital": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "isquaredcapital"
+   }
+  ]
+ },
+ "ifm-investors": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "igneo-infrastructure-partners": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "infravia-capital-partners": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "jefferies": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "lazard": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "oracle",
+    "host": "icbpjb.fa.ocs.oraclecloud.com",
+    "site": "LazardProfessionalCareers"
+   },
+   {
+    "ats": "oracle",
+    "host": "icbpjb.fa.ocs.oraclecloud.com",
+    "site": "LazardStudentCareers"
+   }
+  ]
+ },
+ "liontree": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "liontree"
+   }
+  ]
+ },
+ "marathon-capital": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "meridiam": {
+  "checked": "2026-11-13",
+  "otherAts": [
+   "recruitee.com"
+  ],
+  "sources": [
+   {
+    "ats": "recruitee",
+    "slug": "meridiam"
+   }
+  ]
+ },
+ "messier-associes": {
+  "checked": "2026-11-13",
+  "otherAts": [
+   "erreur: ConnectionError"
+  ],
+  "sources": []
+ },
+ "moelis-company": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "moelis.wd1.myworkdayjobs.com",
+    "site": "Experienced-Hires",
+    "tenant": "moelis"
+   }
+  ]
+ },
+ "morgan-stanley": {
+  "checked": "2026-11-13",
+  "otherAts": [
+   "eightfold.ai"
+  ],
+  "sources": [
+   {
+    "ats": "eightfold",
+    "slug": "morganstanley"
+   }
+  ]
+ },
+ "mubadala": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "natixis-cib": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "oaktree-capital-management": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "omers": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "ontario-teachers-pension-plan": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "partners-group": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "perella-weinberg-partners": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "pjt-partners": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "pjtpartners.wd1.myworkdayjobs.com",
+    "site": "Careers",
+    "tenant": "pjtpartners"
+   }
+  ]
+ },
+ "psp-investments": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "public-investment-fund": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "oracle",
+    "host": "fa-esgl-saasfaprod1.fa.ocs.oraclecloud.com",
+    "site": "CX_1001"
+   }
+  ]
+ },
+ "qatar-investment-authority": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "oracle",
+    "host": "fa-esgr-saasfaprod1.fa.ocs.oraclecloud.com",
+    "site": "CX_1"
+   }
+  ]
+ },
+ "quinbrook-infrastructure-partners": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "rubicon-infrastructure-advisors": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "sixth-street": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "sixthstreet.wd1.myworkdayjobs.com",
+    "site": "sixthstreetcareers",
+    "tenant": "sixthstreet"
+   }
+  ]
+ },
+ "societe-generale": {
+  "checked": "2026-11-13",
+  "otherAts": [
+   "taleo.net"
+  ],
+  "sources": []
+ },
+ "stonepeak": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "temasek": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "tikehau-capital": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "ubs": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "vauban-infrastructure-partners": {
+  "checked": "2026-11-13",
+  "otherAts": [
+   "erreur: SSLError"
+  ],
+  "sources": []
+ },
+ "zaoui-co": {
+  "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ }
+}
