@@ -49,18 +49,16 @@
    "sources": [
     "oracle:jpmc.fa.oraclecloud.com/CX_1001"
    ],
-   "matched": 5,
+   "matched": 4,
    "errors": [],
-   "total": 307
+   "total": 309
   },
   "morgan-stanley": {
    "name": "Morgan Stanley",
-   "sources": [
-    "eightfold:morganstanley"
-   ],
+   "sources": [],
    "matched": 0,
    "errors": [
-    "eightfold:morganstanley: HTTPError 403 Client Error: FORBIDDEN for url: https://morganstanley.eightfold.ai/api/apply/v2/jobs?domain=morganstanley.com&start"
+    "pas de source automatique (couvert par la recherche web)"
    ]
   },
   "bank-of-america": {
@@ -68,21 +66,18 @@
    "sources": [
     "workday:ghr.wd1.myworkdayjobs.com/lateral-us"
    ],
-   "matched": 2,
+   "matched": 0,
    "errors": [],
    "total": 569
   },
   "citi": {
    "name": "Citi",
    "sources": [
-    "eightfold:citi",
     "workday:citi.wd5.myworkdayjobs.com/2"
    ],
    "matched": 4,
-   "errors": [
-    "eightfold:citi: HTTPError 403 Client Error: FORBIDDEN for url: https://citi.eightfold.ai/api/apply/v2/jobs?domain=citi.com&start=0&num=50&query=an"
-   ],
-   "total": 308
+   "errors": [],
+   "total": 306
   },
   "barclays": {
    "name": "Barclays",
@@ -91,7 +86,7 @@
    ],
    "matched": 3,
    "errors": [],
-   "total": 435
+   "total": 432
   },
   "hsbc": {
    "name": "HSBC",
@@ -132,7 +127,21 @@
    ],
    "matched": 0,
    "errors": [],
-   "total": 121
+   "total": 121,
+   "sample": [
+    "Learn more",
+    "Learn more",
+    "Learn more",
+    "Learn more",
+    "Learn more",
+    "Learn more",
+    "Learn more",
+    "Learn more",
+    "Learn more",
+    "Learn more",
+    "Learn more",
+    "Learn more"
+   ]
   },
   "lazard": {
    "name": "Lazard",
@@ -140,7 +149,7 @@
     "oracle:icbpjb.fa.ocs.oraclecloud.com/LazardProfessionalCareers",
     "oracle:icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers"
    ],
-   "matched": 2,
+   "matched": 0,
    "errors": [],
    "total": 228
   },
@@ -157,7 +166,7 @@
    "sources": [
     "workday:pjtpartners.wd1.myworkdayjobs.com/Careers"
    ],
-   "matched": 7,
+   "matched": 6,
    "errors": [],
    "total": 52
   },
@@ -168,7 +177,7 @@
    ],
    "matched": 6,
    "errors": [],
-   "total": 33
+   "total": 32
   },
   "centerview-partners": {
    "name": "Centerview Partners",
@@ -286,7 +295,7 @@
    "sources": [
     "greenhouse:stage"
    ],
-   "matched": 3,
+   "matched": 2,
    "errors": [],
    "total": 136
   },
@@ -329,7 +338,7 @@
    "sources": [
     "workday:brookfield.wd5.myworkdayjobs.com/brookfield"
    ],
-   "matched": 2,
+   "matched": 1,
    "errors": [],
    "total": 120
   },
@@ -518,12 +527,11 @@
   },
   "cube-infrastructure-managers": {
    "name": "Cube Infrastructure Managers",
-   "sources": [
-    "ashby:cube"
-   ],
+   "sources": [],
    "matched": 0,
-   "errors": [],
-   "total": 11
+   "errors": [
+    "pas de source automatique (couvert par la recherche web)"
+   ]
   },
   "quinbrook-infrastructure-partners": {
    "name": "Quinbrook Infrastructure Partners",
