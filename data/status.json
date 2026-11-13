@@ -1,0 +1,622 @@
+{
+ "date": "2026-11-13",
+ "tiers": [
+  1
+ ],
+ "firms": {
+  "bnp-paribas": {
+   "name": "BNP Paribas",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "credit-agricole-cib": {
+   "name": "Crédit Agricole CIB",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "societe-generale": {
+   "name": "Société Générale",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée (logiciel repéré : taleo.net)"
+   ]
+  },
+  "natixis-cib": {
+   "name": "Natixis CIB",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "goldman-sachs": {
+   "name": "Goldman Sachs",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "j-p-morgan": {
+   "name": "J.P. Morgan",
+   "sources": [
+    "oracle:jpmc.fa.oraclecloud.com/CX_1001"
+   ],
+   "matched": 14,
+   "errors": [],
+   "total": 304
+  },
+  "morgan-stanley": {
+   "name": "Morgan Stanley",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée (logiciel repéré : eightfold.ai)"
+   ]
+  },
+  "bank-of-america": {
+   "name": "Bank of America",
+   "sources": [
+    "workday:ghr.wd1.myworkdayjobs.com/en-us"
+   ],
+   "matched": 0,
+   "errors": [
+    "workday:ghr.wd1.myworkdayjobs.com/en-us: HTTPError 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
+   ]
+  },
+  "citi": {
+   "name": "Citi",
+   "sources": [
+    "workday:citi.wd5.myworkdayjobs.com/2"
+   ],
+   "matched": 8,
+   "errors": [],
+   "total": 308
+  },
+  "barclays": {
+   "name": "Barclays",
+   "sources": [
+    "workday:barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays"
+   ],
+   "matched": 5,
+   "errors": [],
+   "total": 433
+  },
+  "hsbc": {
+   "name": "HSBC",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "deutsche-bank": {
+   "name": "Deutsche Bank",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "ubs": {
+   "name": "UBS",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "jefferies": {
+   "name": "Jefferies",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "rothschild-co": {
+   "name": "Rothschild & Co",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "lazard": {
+   "name": "Lazard",
+   "sources": [
+    "oracle:icbpjb.fa.ocs.oraclecloud.com/LazardProfessionalCareers",
+    "oracle:icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers"
+   ],
+   "matched": 38,
+   "errors": [],
+   "total": 228
+  },
+  "evercore": {
+   "name": "Evercore",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "pjt-partners": {
+   "name": "PJT Partners",
+   "sources": [
+    "workday:pjtpartners.wd1.myworkdayjobs.com/Careers"
+   ],
+   "matched": 8,
+   "errors": [],
+   "total": 52
+  },
+  "moelis-company": {
+   "name": "Moelis & Company",
+   "sources": [
+    "workday:moelis.wd1.myworkdayjobs.com/Experienced-Hires"
+   ],
+   "matched": 6,
+   "errors": [],
+   "total": 33
+  },
+  "centerview-partners": {
+   "name": "Centerview Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "perella-weinberg-partners": {
+   "name": "Perella Weinberg Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "guggenheim-securities": {
+   "name": "Guggenheim Securities",
+   "sources": [
+    "workday:guggenheim.wd1.myworkdayjobs.com/Guggenheim_Careers_Campus"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 5
+  },
+  "houlihan-lokey": {
+   "name": "Houlihan Lokey",
+   "sources": [
+    "workday:hl.wd1.myworkdayjobs.com/Campus",
+    "workday:hl.wd1.myworkdayjobs.com/Lateral",
+    "workday:hl.wd1.myworkdayjobs.com/Corporate"
+   ],
+   "matched": 12,
+   "errors": [],
+   "total": 153
+  },
+  "messier-associes": {
+   "name": "Messier & Associés",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée (logiciel repéré : erreur: ConnectionError)"
+   ]
+  },
+  "zaoui-co": {
+   "name": "Zaoui & Co",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "liontree": {
+   "name": "LionTree",
+   "sources": [
+    "greenhouse:liontree"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 2
+  },
+  "marathon-capital": {
+   "name": "Marathon Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "green-giraffe": {
+   "name": "Green Giraffe",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "augusta-co": {
+   "name": "Augusta & Co",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "astris-finance": {
+   "name": "Astris Finance",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "rubicon-infrastructure-advisors": {
+   "name": "Rubicon Infrastructure Advisors",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "blackstone": {
+   "name": "Blackstone",
+   "sources": [
+    "workday:blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers",
+    "workday:blackstone.wd1.myworkdayjobs.com/Blackstone_Careers"
+   ],
+   "matched": 7,
+   "errors": [],
+   "total": 99
+  },
+  "kkr": {
+   "name": "KKR",
+   "sources": [
+    "greenhouse:kkr"
+   ],
+   "matched": 0,
+   "errors": [
+    "greenhouse:kkr: HTTPError 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/kkr/jobs?content=true"
+   ]
+  },
+  "apollo-global-management": {
+   "name": "Apollo Global Management",
+   "sources": [
+    "workday:athene.wd5.myworkdayjobs.com/Apollo_Careers"
+   ],
+   "matched": 1,
+   "errors": [],
+   "total": 53
+  },
+  "carlyle": {
+   "name": "Carlyle",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "cvc": {
+   "name": "CVC",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "eqt": {
+   "name": "EQT",
+   "sources": [
+    "greenhouse:eqtpartners"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 11
+  },
+  "brookfield-asset-management": {
+   "name": "Brookfield Asset Management",
+   "sources": [
+    "workday:brookfield.wd5.myworkdayjobs.com/brookfield"
+   ],
+   "matched": 3,
+   "errors": [],
+   "total": 120
+  },
+  "ares-management": {
+   "name": "Ares Management",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "partners-group": {
+   "name": "Partners Group",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "ardian": {
+   "name": "Ardian",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "eurazeo": {
+   "name": "Eurazeo",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "tikehau-capital": {
+   "name": "Tikehau Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "blue-owl-capital": {
+   "name": "Blue Owl Capital",
+   "sources": [
+    "workday:blueowl.wd1.myworkdayjobs.com/blueowl"
+   ],
+   "matched": 3,
+   "errors": [],
+   "total": 50
+  },
+  "hps-investment-partners": {
+   "name": "HPS Investment Partners",
+   "sources": [
+    "greenhouse:hpsinvestmentpartners"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 1
+  },
+  "oaktree-capital-management": {
+   "name": "Oaktree Capital Management",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "sixth-street": {
+   "name": "Sixth Street",
+   "sources": [
+    "workday:sixthstreet.wd1.myworkdayjobs.com/sixthstreetcareers"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 17
+  },
+  "antin-infrastructure-partners": {
+   "name": "Antin Infrastructure Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée (logiciel repéré : teamtailor.com)"
+   ]
+  },
+  "infravia-capital-partners": {
+   "name": "InfraVia Capital Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "i-squared-capital": {
+   "name": "I Squared Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "stonepeak": {
+   "name": "Stonepeak",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "digitalbridge": {
+   "name": "DigitalBridge",
+   "sources": [
+    "greenhouse:digitalbridge"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 7
+  },
+  "global-infrastructure-partners-blackrock": {
+   "name": "Global Infrastructure Partners — BlackRock",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "copenhagen-infrastructure-partners": {
+   "name": "Copenhagen Infrastructure Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "meridiam": {
+   "name": "Meridiam",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée (logiciel repéré : recruitee.com)"
+   ]
+  },
+  "vauban-infrastructure-partners": {
+   "name": "Vauban Infrastructure Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée (logiciel repéré : erreur: SSLError)"
+   ]
+  },
+  "cvc-dif": {
+   "name": "CVC DIF",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "igneo-infrastructure-partners": {
+   "name": "Igneo Infrastructure Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "ifm-investors": {
+   "name": "IFM Investors",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "ecp": {
+   "name": "ECP",
+   "sources": [
+    "greenhouse:ecp"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 8
+  },
+  "cube-infrastructure-managers": {
+   "name": "Cube Infrastructure Managers",
+   "sources": [
+    "ashby:cube"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 11
+  },
+  "quinbrook-infrastructure-partners": {
+   "name": "Quinbrook Infrastructure Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "gic": {
+   "name": "GIC",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "temasek": {
+   "name": "Temasek",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "mubadala": {
+   "name": "Mubadala",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "qatar-investment-authority": {
+   "name": "Qatar Investment Authority",
+   "sources": [
+    "oracle:fa-esgr-saasfaprod1.fa.ocs.oraclecloud.com/CX_1"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 0
+  },
+  "public-investment-fund": {
+   "name": "Public Investment Fund",
+   "sources": [
+    "oracle:fa-esgl-saasfaprod1.fa.ocs.oraclecloud.com/CX_1001"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 0
+  },
+  "cpp-investments": {
+   "name": "CPP Investments",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "cdpq-la-caisse": {
+   "name": "CDPQ / La Caisse",
+   "sources": [
+    "workday:cdpq.wd10.myworkdayjobs.com/CDPQ",
+    "workday:cdpq.wd10.myworkdayjobs.com/CDPQ-recrutement-universitaire"
+   ],
+   "matched": 1,
+   "errors": [],
+   "total": 44
+  },
+  "psp-investments": {
+   "name": "PSP Investments",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "ontario-teachers-pension-plan": {
+   "name": "Ontario Teachers’ Pension Plan",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "omers": {
+   "name": "OMERS",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "_vie": {
+   "name": "Mon Volontariat International",
+   "matched": 0,
+   "errors": [
+    "HTTPError 401 Client Error: Unauthorized for url: https://civiweb-api-prd.azurewebsites.net/api/Offers/search"
+   ]
+  }
+ }
+}
