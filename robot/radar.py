@@ -37,7 +37,7 @@ S.headers.update({"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9,fr;q=0.8"
 
 # ---------------------------------------------------------------- filtres
 CITIES = {
-    "London": [r"\blondon\b", r"\blondres\b"],
+    "London": [r"\blondon\b", r"\blondres\b", r"\buk\b", r"\bunited kingdom\b"],
     "Paris": [r"\bparis\b", r"\bla d[ée]fense\b"],
     "New York": [r"\bnew york\b", r"\bnyc\b", r"\bny,", r"\bmanhattan\b"],
     "Hong Kong": [r"\bhong kong\b", r"\bhk\b", r"\bhksar\b"],
@@ -65,6 +65,16 @@ START_HINT = re.compile(
     r"((january|february|march|april|may|june|july|august|september|october|november|december|"
     r"janvier|f[ée]vrier|mars|avril|mai|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre|"
     r"jan|feb|mar|apr|jun|jul|aug|sept?|oct|nov|dec)\.?\s+20(2[6-9]))", re.I)
+
+
+ELSEWHERE = re.compile(
+    r"\b(singapore|madrid|spain|espa[ñn]a|poland|warsaw|riyadh|saudi|dubai|uae|abu dhabi|qatar|doha|denmark|"
+    r"copenhagen|stockholm|sweden|oslo|norway|helsinki|amsterdam|netherlands|dutch|brussels|belgium|luxembourg|"
+    r"milan|italy|frankfurt|germany|munich|zurich|geneva|switzerland|lisbon|portugal|prague|vienna|"
+    r"sydney|melbourne|australia|tokyo|japan|seoul|korea|mumbai|india|gurugram|bangalore|shanghai|beijing|"
+    r"china|taipei|jakarta|johannesburg|s[ãa]o paulo|brazil|mexico|toronto|montreal|canada|chicago|houston|"
+    r"san francisco|menlo park|los angeles|boston|dallas|atlanta|charlotte|miami|minneapolis|denver|"
+    r"cee|central and eastern europe|nordics?|iberia|benelux|dach|mena|middle east)\b", re.I)
 
 
 def city_of(text):
@@ -95,7 +105,9 @@ def months_in(text):
 def too_early(title):
     """Vrai si le titre annonce uniquement des débuts avant septembre 2027."""
     ms = months_in(title)
-    return bool(ms) and max(ms) < 202709
+    if ms:
+        return max(ms) < 202709
+    return bool(re.search(r"\b2026\b", title or "")) and not re.search(r"\b202[789]\b", title or "")
 
 
 def title_ok(title):
@@ -104,7 +116,11 @@ def title_ok(title):
 
 
 def keep(title, location):
-    return title_ok(title) and bool(city_of(location or title))
+    if not title_ok(title):
+        return False
+    if ELSEWHERE.search(title) and not city_of(title):
+        return False
+    return bool(city_of(location or title))
 
 
 def clean(txt, n=1800):
@@ -352,14 +368,16 @@ def fetch_htmllist(src):
                 seen.add(full)
                 found += 1
                 loc = title + " " + full.replace("-", " ")
-                if not city_of(loc) and src.get("defaultCity", {}).get(page_url):
+                if (not city_of(loc) and src.get("defaultCity", {}).get(page_url)
+                        and re.search(r"\b(stage|juillet|septembre|janvier|mars|[ée]quipe|h/f)\b", title, re.I)):
                     loc += " " + src["defaultCity"][page_url]
                 if not city_of(loc) and title_ok(title) and src.get("details", 0) > 0:
                     src["details"] -= 1
                     try:
                         d = get(full)
-                        text = clean(d.text, 20000) if d.ok else ""
-                        c = city_of(text[:6000])
+                        text = clean(d.text, 30000) if d.ok else ""
+                        lab = re.search(r"\b(location|lieu|localisation|office)\s*:?\s*([A-Za-zÀ-ÿ ,\-]{3,60})", text, re.I)
+                        c = city_of(lab.group(2)) if lab else None
                         if c:
                             loc += " " + c
                     except requests.RequestException:
