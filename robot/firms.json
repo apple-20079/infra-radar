@@ -1,0 +1,2249 @@
+[
+ {
+  "id": "bnp-paribas",
+  "name": "BNP Paribas",
+  "category": "Banques",
+  "tier": 1,
+  "vie": true,
+  "careersUrl": "https://group.bnpparibas/en/careers"
+ },
+ {
+  "id": "credit-agricole-cib",
+  "name": "Crédit Agricole CIB",
+  "category": "Banques",
+  "tier": 1,
+  "vie": true,
+  "careersUrl": "https://jobs.ca-cib.com/"
+ },
+ {
+  "id": "societe-generale",
+  "name": "Société Générale",
+  "category": "Banques",
+  "tier": 1,
+  "vie": true,
+  "careersUrl": "https://careers.societegenerale.com/"
+ },
+ {
+  "id": "natixis-cib",
+  "name": "Natixis CIB",
+  "category": "Banques",
+  "tier": 1,
+  "vie": true,
+  "careersUrl": "https://natixis.groupebpce.com/"
+ },
+ {
+  "id": "credit-mutuel-alliance-federale-cic",
+  "name": "Crédit Mutuel Alliance Fédérale / CIC",
+  "category": "Banques",
+  "tier": 2,
+  "vie": true
+ },
+ {
+  "id": "cicc",
+  "name": "CICC",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "bpifrance",
+  "name": "Bpifrance",
+  "category": "Banques",
+  "tier": 2,
+  "vie": true,
+  "careersUrl": "https://www.bpifrance.fr/nos-offres-demploi"
+ },
+ {
+  "id": "goldman-sachs",
+  "name": "Goldman Sachs",
+  "category": "Banques",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://higher.gs.com/"
+ },
+ {
+  "id": "j-p-morgan",
+  "name": "J.P. Morgan",
+  "category": "Banques",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://careers.jpmorgan.com/",
+  "sources": [
+   {
+    "ats": "oracle",
+    "host": "jpmc.fa.oraclecloud.com",
+    "site": "CX_1001"
+   }
+  ]
+ },
+ {
+  "id": "morgan-stanley",
+  "name": "Morgan Stanley",
+  "category": "Banques",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.morganstanley.com/people-opportunities/students-graduates"
+ },
+ {
+  "id": "bank-of-america",
+  "name": "Bank of America",
+  "category": "Banques",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://campus.bankofamerica.com/"
+ },
+ {
+  "id": "citi",
+  "name": "Citi",
+  "category": "Banques",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://jobs.citi.com/"
+ },
+ {
+  "id": "barclays",
+  "name": "Barclays",
+  "category": "Banques",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://search.jobs.barclays/"
+ },
+ {
+  "id": "hsbc",
+  "name": "HSBC",
+  "category": "Banques",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "standard-chartered",
+  "name": "Standard Chartered",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "natwest-group-natwest-markets",
+  "name": "NatWest Group / NatWest Markets",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "lloyds-banking-group",
+  "name": "Lloyds Banking Group",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "investec",
+  "name": "Investec",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "deutsche-bank",
+  "name": "Deutsche Bank",
+  "category": "Banques",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://careers.db.com/"
+ },
+ {
+  "id": "ubs",
+  "name": "UBS",
+  "category": "Banques",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.ubs.com/global/en/careers.html"
+ },
+ {
+  "id": "santander-cib",
+  "name": "Santander CIB",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "unicredit",
+  "name": "UniCredit",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "ing",
+  "name": "ING",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "citic-securities-clsa",
+  "name": "CITIC Securities / CLSA",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "rbc-capital-markets",
+  "name": "RBC Capital Markets",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "td-securities",
+  "name": "TD Securities",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "bmo-capital-markets",
+  "name": "BMO Capital Markets",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "scotiabank",
+  "name": "Scotiabank",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "wells-fargo",
+  "name": "Wells Fargo",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "jefferies",
+  "name": "Jefferies",
+  "category": "Banques",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.jefferies.com/careers/"
+ },
+ {
+  "id": "mufg",
+  "name": "MUFG",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "smbc",
+  "name": "SMBC",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "mizuho-greenhill",
+  "name": "Mizuho / Greenhill",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "nomura",
+  "name": "Nomura",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "dbs",
+  "name": "DBS",
+  "category": "Banques",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "rothschild-co",
+  "name": "Rothschild & Co",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": true,
+  "careersUrl": "https://www.rothschildandco.com/en/careers/"
+ },
+ {
+  "id": "lazard",
+  "name": "Lazard",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.lazard.com/careers/"
+ },
+ {
+  "id": "evercore",
+  "name": "Evercore",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.evercore.com/careers/"
+ },
+ {
+  "id": "pjt-partners",
+  "name": "PJT Partners",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.pjtpartners.com/careers"
+ },
+ {
+  "id": "moelis-company",
+  "name": "Moelis & Company",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.moelis.com/careers/"
+ },
+ {
+  "id": "centerview-partners",
+  "name": "Centerview Partners",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.centerviewpartners.com/"
+ },
+ {
+  "id": "perella-weinberg-partners",
+  "name": "Perella Weinberg Partners",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://pwpartners.com/careers/"
+ },
+ {
+  "id": "guggenheim-securities",
+  "name": "Guggenheim Securities",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.guggenheimpartners.com/firm/careers",
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "guggenheim.wd1.myworkdayjobs.com",
+    "tenant": "guggenheim",
+    "site": "Guggenheim_Careers_Campus"
+   }
+  ]
+ },
+ {
+  "id": "houlihan-lokey",
+  "name": "Houlihan Lokey",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://hl.com/careers/"
+ },
+ {
+  "id": "william-blair",
+  "name": "William Blair",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "robert-w-baird",
+  "name": "Robert W. Baird",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "harris-williams",
+  "name": "Harris Williams",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "lincoln-international",
+  "name": "Lincoln International",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "raymond-james",
+  "name": "Raymond James",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "stifel",
+  "name": "Stifel",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "canaccord-genuity",
+  "name": "Canaccord Genuity",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "dc-advisory",
+  "name": "DC Advisory",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "alantra",
+  "name": "Alantra",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "natixis-partners",
+  "name": "Natixis Partners",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": true
+ },
+ {
+  "id": "amala-partners",
+  "name": "Amala Partners",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "messier-associes",
+  "name": "Messier & Associés",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.messierassocies.com/"
+ },
+ {
+  "id": "zaoui-co",
+  "name": "Zaoui & Co",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "ondra-partners",
+  "name": "Ondra Partners",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.ondra.com/"
+ },
+ {
+  "id": "arma-partners",
+  "name": "Arma Partners",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "qatalyst-partners",
+  "name": "Qatalyst Partners",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.qatalyst.com/"
+ },
+ {
+  "id": "liontree",
+  "name": "LionTree",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.liontree.com/"
+ },
+ {
+  "id": "centrus",
+  "name": "Centrus",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "ft-partners",
+  "name": "FT Partners",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "tap-advisors",
+  "name": "TAP Advisors",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "solomon-partners",
+  "name": "Solomon Partners",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "marathon-capital",
+  "name": "Marathon Capital",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "green-giraffe",
+  "name": "Green Giraffe",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "augusta-co",
+  "name": "Augusta & Co",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "astris-finance",
+  "name": "Astris Finance",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "rubicon-infrastructure-advisors",
+  "name": "Rubicon Infrastructure Advisors",
+  "category": "Boutiques M&A",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "finergreen",
+  "name": "Finergreen",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "clipperton",
+  "name": "Clipperton",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "cambon-partners",
+  "name": "Cambon Partners",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "oaklins",
+  "name": "Oaklins",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "edmond-de-rothschild-corporate-finance",
+  "name": "Edmond de Rothschild Corporate Finance",
+  "category": "Boutiques M&A",
+  "tier": 2,
+  "vie": true
+ },
+ {
+  "id": "blackstone",
+  "name": "Blackstone",
+  "category": "PE large cap",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.blackstone.com/careers/",
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "blackstone.wd1.myworkdayjobs.com",
+    "tenant": "blackstone",
+    "site": "Blackstone_Campus_Careers"
+   },
+   {
+    "ats": "workday",
+    "host": "blackstone.wd1.myworkdayjobs.com",
+    "tenant": "blackstone",
+    "site": "Blackstone_Careers"
+   }
+  ]
+ },
+ {
+  "id": "kkr",
+  "name": "KKR",
+  "category": "PE large cap",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.kkr.com/careers",
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "slug": "kkr"
+   }
+  ]
+ },
+ {
+  "id": "apollo-global-management",
+  "name": "Apollo Global Management",
+  "category": "PE large cap",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.apollo.com/careers"
+ },
+ {
+  "id": "carlyle",
+  "name": "Carlyle",
+  "category": "PE large cap",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.carlyle.com/careers"
+ },
+ {
+  "id": "tpg",
+  "name": "TPG",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.tpg.com/careers"
+ },
+ {
+  "id": "bain-capital",
+  "name": "Bain Capital",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.baincapital.com/careers",
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "baincapital.wd1.myworkdayjobs.com",
+    "tenant": "baincapital",
+    "site": "External_Public"
+   }
+  ]
+ },
+ {
+  "id": "advent-international",
+  "name": "Advent International",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.adventinternational.com/careers/"
+ },
+ {
+  "id": "cvc",
+  "name": "CVC",
+  "category": "PE large cap",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.cvc.com/careers/"
+ },
+ {
+  "id": "eqt",
+  "name": "EQT",
+  "category": "PE large cap",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://eqtgroup.com/careers"
+ },
+ {
+  "id": "warburg-pincus",
+  "name": "Warburg Pincus",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://warburgpincus.com/careers/"
+ },
+ {
+  "id": "hellman-friedman",
+  "name": "Hellman & Friedman",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://hf.com/"
+ },
+ {
+  "id": "silver-lake",
+  "name": "Silver Lake",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.silverlake.com/"
+ },
+ {
+  "id": "thoma-bravo",
+  "name": "Thoma Bravo",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.thomabravo.com/careers"
+ },
+ {
+  "id": "vista-equity-partners",
+  "name": "Vista Equity Partners",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.vistaequitypartners.com/"
+ },
+ {
+  "id": "general-atlantic",
+  "name": "General Atlantic",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.generalatlantic.com/careers/"
+ },
+ {
+  "id": "brookfield-asset-management",
+  "name": "Brookfield Asset Management",
+  "category": "PE large cap",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.brookfield.com/careers",
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "brookfield.wd5.myworkdayjobs.com",
+    "tenant": "brookfield",
+    "site": "brookfield"
+   }
+  ]
+ },
+ {
+  "id": "ares-management",
+  "name": "Ares Management",
+  "category": "PE large cap",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.aresmgmt.com/careers"
+ },
+ {
+  "id": "partners-group",
+  "name": "Partners Group",
+  "category": "PE large cap",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.partnersgroup.com/en/careers"
+ },
+ {
+  "id": "ardian",
+  "name": "Ardian",
+  "category": "PE large cap",
+  "tier": 1,
+  "vie": true,
+  "careersUrl": "https://www.ardian.com/careers"
+ },
+ {
+  "id": "pai-partners",
+  "name": "PAI Partners",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.paipartners.com/"
+ },
+ {
+  "id": "cinven",
+  "name": "Cinven",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.cinven.com/careers/"
+ },
+ {
+  "id": "permira",
+  "name": "Permira",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.permira.com/careers"
+ },
+ {
+  "id": "bc-partners",
+  "name": "BC Partners",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.bcpartners.com/"
+ },
+ {
+  "id": "bridgepoint",
+  "name": "Bridgepoint",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.bridgepoint.eu/careers"
+ },
+ {
+  "id": "hg",
+  "name": "Hg",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://hgcapital.com/careers"
+ },
+ {
+  "id": "apax-partners",
+  "name": "Apax Partners",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.apax.com/careers/"
+ },
+ {
+  "id": "icg",
+  "name": "ICG",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.icgam.com/careers/"
+ },
+ {
+  "id": "eurazeo",
+  "name": "Eurazeo",
+  "category": "PE large cap",
+  "tier": 1,
+  "vie": true,
+  "careersUrl": "https://www.eurazeo.com/en/careers"
+ },
+ {
+  "id": "investindustrial",
+  "name": "Investindustrial",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "triton-partners",
+  "name": "Triton Partners",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.triton-partners.com/"
+ },
+ {
+  "id": "onex",
+  "name": "Onex",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.onex.com/careers"
+ },
+ {
+  "id": "clayton-dubilier-rice",
+  "name": "Clayton Dubilier & Rice",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "sycamore-partners",
+  "name": "Sycamore Partners",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "welsh-carson-anderson-stowe",
+  "name": "Welsh Carson Anderson & Stowe",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "new-mountain-capital",
+  "name": "New Mountain Capital",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "veritas-capital",
+  "name": "Veritas Capital",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.veritascapital.com/"
+ },
+ {
+  "id": "platinum-equity",
+  "name": "Platinum Equity",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.platinumequity.com/"
+ },
+ {
+  "id": "american-securities",
+  "name": "American Securities",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "lindsay-goldberg",
+  "name": "Lindsay Goldberg",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "cerberus-capital-management",
+  "name": "Cerberus Capital Management",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "centerbridge-partners",
+  "name": "Centerbridge Partners",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "fortress-investment-group",
+  "name": "Fortress Investment Group",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.fortress.com/careers"
+ },
+ {
+  "id": "francisco-partners",
+  "name": "Francisco Partners",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.franciscopartners.com/"
+ },
+ {
+  "id": "gtcr",
+  "name": "GTCR",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "clearlake-capital",
+  "name": "Clearlake Capital",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://clearlake.com/"
+ },
+ {
+  "id": "insight-partners",
+  "name": "Insight Partners",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.insightpartners.com/careers/"
+ },
+ {
+  "id": "wendel",
+  "name": "Wendel",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": true,
+  "careersUrl": "https://www.wendelgroup.com/"
+ },
+ {
+  "id": "3i-group",
+  "name": "3i Group",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.3i.com/careers/"
+ },
+ {
+  "id": "astorg",
+  "name": "Astorg",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": true
+ },
+ {
+  "id": "towerbrook-capital-partners",
+  "name": "TowerBrook Capital Partners",
+  "category": "PE large cap",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "montagu",
+  "name": "Montagu",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "tikehau-capital",
+  "name": "Tikehau Capital",
+  "category": "PE mid-market",
+  "tier": 1,
+  "vie": true,
+  "careersUrl": "https://www.tikehaucapital.com/en/careers"
+ },
+ {
+  "id": "capza",
+  "name": "CAPZA",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "andera-partners",
+  "name": "Andera Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "naxicap-partners",
+  "name": "Naxicap Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "siparex",
+  "name": "Siparex",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "lbo-france",
+  "name": "LBO France",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "latour-capital",
+  "name": "Latour Capital",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "montefiore-investment",
+  "name": "Montefiore Investment",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "ik-partners",
+  "name": "IK Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "waterland-private-equity",
+  "name": "Waterland Private Equity",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "equistone-partners-europe",
+  "name": "Equistone Partners Europe",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "emz-partners",
+  "name": "EMZ Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "seven2",
+  "name": "Seven2",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "qualium-investissement",
+  "name": "Qualium Investissement",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "keensight-capital",
+  "name": "Keensight Capital",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "aea-investors",
+  "name": "AEA Investors",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "fsn-capital",
+  "name": "FSN Capital",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "nordic-capital",
+  "name": "Nordic Capital",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.nordiccapital.com/"
+ },
+ {
+  "id": "bregal-investments",
+  "name": "Bregal Investments",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "summa-equity",
+  "name": "Summa Equity",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "parquest",
+  "name": "Parquest",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "inflexion",
+  "name": "Inflexion",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "livingbridge",
+  "name": "Livingbridge",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "bowmark-capital",
+  "name": "Bowmark Capital",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "eci-partners",
+  "name": "ECI Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "exponent",
+  "name": "Exponent",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "graphite-capital",
+  "name": "Graphite Capital",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "charterhouse-capital-partners",
+  "name": "Charterhouse Capital Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "h-i-g-capital",
+  "name": "H.I.G. Capital",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://higcapital.com/careers"
+ },
+ {
+  "id": "trilantic-capital-partners",
+  "name": "Trilantic Capital Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "one-equity-partners",
+  "name": "One Equity Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "court-square-capital-partners",
+  "name": "Court Square Capital Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "kelso-company",
+  "name": "Kelso & Company",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "midocean-partners",
+  "name": "MidOcean Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "sentinel-capital-partners",
+  "name": "Sentinel Capital Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "wellspring-capital-management",
+  "name": "Wellspring Capital Management",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "the-jordan-company",
+  "name": "The Jordan Company",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "vestar-capital-partners",
+  "name": "Vestar Capital Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "lightyear-capital",
+  "name": "Lightyear Capital",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "lee-equity-partners",
+  "name": "Lee Equity Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "tailwind-capital",
+  "name": "Tailwind Capital",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "arsenal-capital-partners",
+  "name": "Arsenal Capital Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "palladium-equity-partners",
+  "name": "Palladium Equity Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "odyssey-investment-partners",
+  "name": "Odyssey Investment Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "tzp-group",
+  "name": "TZP Group",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "reverence-capital-partners",
+  "name": "Reverence Capital Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "searchlight-capital-partners",
+  "name": "Searchlight Capital Partners",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.searchlightcap.com/"
+ },
+ {
+  "id": "novacap",
+  "name": "Novacap",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "oak-hill-capital",
+  "name": "Oak Hill Capital",
+  "category": "PE mid-market",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "blue-owl-capital",
+  "name": "Blue Owl Capital",
+  "category": "Private credit",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.blueowl.com/careers"
+ },
+ {
+  "id": "hps-investment-partners",
+  "name": "HPS Investment Partners",
+  "category": "Private credit",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "oaktree-capital-management",
+  "name": "Oaktree Capital Management",
+  "category": "Private credit",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "sixth-street",
+  "name": "Sixth Street",
+  "category": "Private credit",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://sixthstreet.com/careers/"
+ },
+ {
+  "id": "golub-capital",
+  "name": "Golub Capital",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://golubcapital.com/careers/"
+ },
+ {
+  "id": "antares-capital",
+  "name": "Antares Capital",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.antares.com/"
+ },
+ {
+  "id": "hayfin-capital-management",
+  "name": "Hayfin Capital Management",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.hayfin.com/careers/"
+ },
+ {
+  "id": "pemberton-asset-management",
+  "name": "Pemberton Asset Management",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://pembertonam.com/"
+ },
+ {
+  "id": "arcmont-asset-management",
+  "name": "Arcmont Asset Management",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "barings",
+  "name": "Barings",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.barings.com/careers"
+ },
+ {
+  "id": "pgim",
+  "name": "PGIM",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "nuveen",
+  "name": "Nuveen",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "m-g-investments",
+  "name": "M&G Investments",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "macquarie-group",
+  "name": "Macquarie Group",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.macquarie.com/careers"
+ },
+ {
+  "id": "blackrock",
+  "name": "BlackRock",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "stepstone-group",
+  "name": "StepStone Group",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "neuberger-berman",
+  "name": "Neuberger Berman",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "alcentra",
+  "name": "Alcentra",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "kartesia",
+  "name": "Kartesia",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "mv-credit",
+  "name": "MV Credit",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "park-square-capital",
+  "name": "Park Square Capital",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "cheyne-capital",
+  "name": "Cheyne Capital",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "arrow-global",
+  "name": "Arrow Global",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "davidson-kempner",
+  "name": "Davidson Kempner",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "oak-hill-advisors",
+  "name": "Oak Hill Advisors",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "diameter-capital-partners",
+  "name": "Diameter Capital Partners",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "pimco",
+  "name": "PIMCO",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "monroe-capital",
+  "name": "Monroe Capital",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "nxt-capital",
+  "name": "NXT Capital",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "capital-four",
+  "name": "Capital Four",
+  "category": "Private credit",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "antin-infrastructure-partners",
+  "name": "Antin Infrastructure Partners",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": true,
+  "careersUrl": "https://www.antin-ip.com/"
+ },
+ {
+  "id": "infravia-capital-partners",
+  "name": "InfraVia Capital Partners",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": true,
+  "careersUrl": "https://www.infraviacapital.com/"
+ },
+ {
+  "id": "i-squared-capital",
+  "name": "I Squared Capital",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://isquaredcapital.com/"
+ },
+ {
+  "id": "stonepeak",
+  "name": "Stonepeak",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://stonepeak.com/careers"
+ },
+ {
+  "id": "digitalbridge",
+  "name": "DigitalBridge",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.digitalbridge.com/"
+ },
+ {
+  "id": "global-infrastructure-partners-blackrock",
+  "name": "Global Infrastructure Partners — BlackRock",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "copenhagen-infrastructure-partners",
+  "name": "Copenhagen Infrastructure Partners",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://cip.com/careers/"
+ },
+ {
+  "id": "meridiam",
+  "name": "Meridiam",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": true,
+  "careersUrl": "https://www.meridiam.com/"
+ },
+ {
+  "id": "vauban-infrastructure-partners",
+  "name": "Vauban Infrastructure Partners",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": true,
+  "careersUrl": "https://www.vauban-ip.com/"
+ },
+ {
+  "id": "cvc-dif",
+  "name": "CVC DIF",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "igneo-infrastructure-partners",
+  "name": "Igneo Infrastructure Partners",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "ifm-investors",
+  "name": "IFM Investors",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "ecp",
+  "name": "ECP",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "actis",
+  "name": "Actis",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false,
+  "careersUrl": "https://www.act.is/"
+ },
+ {
+  "id": "glennmont-partners",
+  "name": "Glennmont Partners",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "foresight-group",
+  "name": "Foresight Group",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "octopus-energy-generation",
+  "name": "Octopus Energy Generation",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "amber-infrastructure",
+  "name": "Amber Infrastructure",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "cordiant-capital",
+  "name": "Cordiant Capital",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "cube-infrastructure-managers",
+  "name": "Cube Infrastructure Managers",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.cube-ip.com/"
+ },
+ {
+  "id": "white-summit-capital",
+  "name": "White Summit Capital",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "basalt-infrastructure-partners",
+  "name": "Basalt Infrastructure Partners",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "ancala",
+  "name": "Ancala",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "arjun-infrastructure-partners",
+  "name": "Arjun Infrastructure Partners",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "patrizia-infrastructure",
+  "name": "Patrizia Infrastructure",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "susi-partners",
+  "name": "SUSI Partners",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "eiffel-investment-group",
+  "name": "Eiffel Investment Group",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "rgreen-invest",
+  "name": "RGREEN INVEST",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "rivage-investment",
+  "name": "Rivage Investment",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "sienna-investment-managers",
+  "name": "Sienna Investment Managers",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "sosteneo",
+  "name": "Sosteneo",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "sandbrook-capital",
+  "name": "Sandbrook Capital",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "quinbrook-infrastructure-partners",
+  "name": "Quinbrook Infrastructure Partners",
+  "category": "Fonds infra",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "ara-partners",
+  "name": "Ara Partners",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "generate-capital",
+  "name": "Generate Capital",
+  "category": "Fonds infra",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "gic",
+  "name": "GIC",
+  "category": "Souverains & pensions",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.gic.com.sg/careers/"
+ },
+ {
+  "id": "temasek",
+  "name": "Temasek",
+  "category": "Souverains & pensions",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.temasek.com.sg/en/careers"
+ },
+ {
+  "id": "mubadala",
+  "name": "Mubadala",
+  "category": "Souverains & pensions",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.mubadala.com/en/careers"
+ },
+ {
+  "id": "qatar-investment-authority",
+  "name": "Qatar Investment Authority",
+  "category": "Souverains & pensions",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.qia.qa/"
+ },
+ {
+  "id": "kuwait-investment-office",
+  "name": "Kuwait Investment Office",
+  "category": "Souverains & pensions",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "public-investment-fund",
+  "name": "Public Investment Fund",
+  "category": "Souverains & pensions",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.pif.gov.sa/en/careers/"
+ },
+ {
+  "id": "khazanah-nasional",
+  "name": "Khazanah Nasional",
+  "category": "Souverains & pensions",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "cpp-investments",
+  "name": "CPP Investments",
+  "category": "Souverains & pensions",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.cppinvestments.com/careers/"
+ },
+ {
+  "id": "cdpq-la-caisse",
+  "name": "CDPQ / La Caisse",
+  "category": "Souverains & pensions",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.cdpq.com/en/careers"
+ },
+ {
+  "id": "psp-investments",
+  "name": "PSP Investments",
+  "category": "Souverains & pensions",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.investpsp.com/en/careers/"
+ },
+ {
+  "id": "ontario-teachers-pension-plan",
+  "name": "Ontario Teachers’ Pension Plan",
+  "category": "Souverains & pensions",
+  "tier": 1,
+  "vie": false
+ },
+ {
+  "id": "omers",
+  "name": "OMERS",
+  "category": "Souverains & pensions",
+  "tier": 1,
+  "vie": false,
+  "careersUrl": "https://www.omers.com/careers"
+ },
+ {
+  "id": "aimco",
+  "name": "AIMCo",
+  "category": "Souverains & pensions",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "british-international-investment",
+  "name": "British International Investment",
+  "category": "Souverains & pensions",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "proparco",
+  "name": "Proparco",
+  "category": "Souverains & pensions",
+  "tier": 2,
+  "vie": true
+ },
+ {
+  "id": "mckinsey-company",
+  "name": "McKinsey & Company",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "boston-consulting-group",
+  "name": "Boston Consulting Group",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "bain-company",
+  "name": "Bain & Company",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "oliver-wyman",
+  "name": "Oliver Wyman",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "roland-berger",
+  "name": "Roland Berger",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "kearney",
+  "name": "Kearney",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "l-e-k-consulting",
+  "name": "L.E.K. Consulting",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "arthur-d-little",
+  "name": "Arthur D. Little",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "strategy-pwc",
+  "name": "Strategy& / PwC",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "ey-ey-parthenon",
+  "name": "EY / EY-Parthenon",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "deloitte-monitor-deloitte",
+  "name": "Deloitte / Monitor Deloitte",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "kpmg",
+  "name": "KPMG",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "accenture-strategy",
+  "name": "Accenture Strategy",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "alvarez-marsal",
+  "name": "Alvarez & Marsal",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "alixpartners",
+  "name": "AlixPartners",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "fti-consulting",
+  "name": "FTI Consulting",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "eight-advisory",
+  "name": "Eight Advisory",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "accuracy",
+  "name": "Accuracy",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "kroll",
+  "name": "Kroll",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "grant-thornton",
+  "name": "Grant Thornton",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "bdo",
+  "name": "BDO",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "forvis-mazars",
+  "name": "Forvis Mazars",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "afry",
+  "name": "AFRY",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "aurora-energy-research",
+  "name": "Aurora Energy Research",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "baringa",
+  "name": "Baringa",
+  "category": "Conseil",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "alphabet-google",
+  "name": "Alphabet / Google",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "microsoft",
+  "name": "Microsoft",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "amazon-aws",
+  "name": "Amazon / AWS",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "meta",
+  "name": "Meta",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "oracle",
+  "name": "Oracle",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "equinix",
+  "name": "Equinix",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "digital-realty",
+  "name": "Digital Realty",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "airtrunk",
+  "name": "AirTrunk",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "st-telemedia-global-data-centres",
+  "name": "ST Telemedia Global Data Centres",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "princeton-digital-group",
+  "name": "Princeton Digital Group",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "vantage-data-centers",
+  "name": "Vantage Data Centers",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "colt-data-centre-services",
+  "name": "Colt Data Centre Services",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "engie",
+  "name": "ENGIE",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": true
+ },
+ {
+  "id": "totalenergies",
+  "name": "TotalEnergies",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": true
+ },
+ {
+  "id": "edf-edf-invest",
+  "name": "EDF / EDF Invest",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": true
+ },
+ {
+  "id": "shell",
+  "name": "Shell",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "bp",
+  "name": "BP",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "sembcorp-industries",
+  "name": "Sembcorp Industries",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "keppel",
+  "name": "Keppel",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": false
+ },
+ {
+  "id": "schneider-electric",
+  "name": "Schneider Electric",
+  "category": "Corporate",
+  "tier": 2,
+  "vie": true
+ }
+]

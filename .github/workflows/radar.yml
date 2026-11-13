@@ -1,0 +1,45 @@
+name: Infra Radar
+
+on:
+  schedule:
+    # Tous les jours vers 6h25 (Paris, heure d'hiver) : acteurs en suivi quotidien
+    - cron: "25 5 * * *"
+    # Le dimanche vers 4h25 : toute la liste (suivi quotidien + secondaires)
+    - cron: "25 3 * * 0"
+  workflow_dispatch:
+    inputs:
+      tiers:
+        description: "Niveaux à interroger (1 = suivi quotidien, 2 = secondaires)"
+        default: "1"
+  push:
+    branches: [main]
+    paths: ["robot/**", ".github/workflows/radar.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3
+      - name: Collecte
+        env:
+          RADAR_TIERS: ${{ github.event.inputs.tiers || (github.event.schedule == '25 3 * * 0' && '1,2') || '1' }}
+        run: python robot/radar.py
+      - name: Enregistre les résultats
+        run: |
+          git config user.name "infra-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Radar $(date -u +%Y-%m-%d)"
+          git push
