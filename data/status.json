@@ -1,5 +1,5 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-14",
  "tiers": [
   1
  ],
@@ -51,7 +51,7 @@
    ],
    "matched": 5,
    "errors": [],
-   "total": 311
+   "total": 323
   },
   "morgan-stanley": {
    "name": "Morgan Stanley",
@@ -67,17 +67,19 @@
     "workday:ghr.wd1.myworkdayjobs.com/lateral-us"
    ],
    "matched": 0,
-   "errors": [],
-   "total": 569
+   "errors": [
+    "workday:ghr.wd1.myworkdayjobs.com/lateral-us: HTTPError 521 Server Error: <none> for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/lateral-us/jobs"
+   ]
   },
   "citi": {
    "name": "Citi",
    "sources": [
     "workday:citi.wd5.myworkdayjobs.com/2"
    ],
-   "matched": 7,
-   "errors": [],
-   "total": 306
+   "matched": 0,
+   "errors": [
+    "workday:citi.wd5.myworkdayjobs.com/2: HTTPError 521 Server Error: <none> for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs"
+   ]
   },
   "barclays": {
    "name": "Barclays",
@@ -86,7 +88,7 @@
    ],
    "matched": 3,
    "errors": [],
-   "total": 432
+   "total": 431
   },
   "hsbc": {
    "name": "HSBC",
@@ -151,7 +153,7 @@
    ],
    "matched": 0,
    "errors": [],
-   "total": 228
+   "total": 226
   },
   "evercore": {
    "name": "Evercore",
@@ -166,18 +168,20 @@
    "sources": [
     "workday:pjtpartners.wd1.myworkdayjobs.com/Careers"
    ],
-   "matched": 6,
-   "errors": [],
-   "total": 52
+   "matched": 0,
+   "errors": [
+    "workday:pjtpartners.wd1.myworkdayjobs.com/Careers: HTTPError 521 Server Error: <none> for url: https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Careers/jobs"
+   ]
   },
   "moelis-company": {
    "name": "Moelis & Company",
    "sources": [
     "workday:moelis.wd1.myworkdayjobs.com/Experienced-Hires"
    ],
-   "matched": 6,
-   "errors": [],
-   "total": 32
+   "matched": 0,
+   "errors": [
+    "workday:moelis.wd1.myworkdayjobs.com/Experienced-Hires: HTTPError 521 Server Error: <none> for url: https://moelis.wd1.myworkdayjobs.com/wday/cxs/moelis/Experienced-Hires/jobs"
+   ]
   },
   "centerview-partners": {
    "name": "Centerview Partners",
@@ -201,8 +205,9 @@
     "workday:guggenheim.wd1.myworkdayjobs.com/Guggenheim_Careers_Campus"
    ],
    "matched": 0,
-   "errors": [],
-   "total": 5
+   "errors": [
+    "workday:guggenheim.wd1.myworkdayjobs.com/Guggenheim_Careers_Campus: HTTPError 521 Server Error: <none> for url: https://guggenheim.wd1.myworkdayjobs.com/wday/cxs/guggenheim/Guggenheim_Careers_Campus"
+   ]
   },
   "houlihan-lokey": {
    "name": "Houlihan Lokey",
@@ -211,9 +216,12 @@
     "workday:hl.wd1.myworkdayjobs.com/Lateral",
     "workday:hl.wd1.myworkdayjobs.com/Corporate"
    ],
-   "matched": 8,
-   "errors": [],
-   "total": 153
+   "matched": 0,
+   "errors": [
+    "workday:hl.wd1.myworkdayjobs.com/Campus: HTTPError 521 Server Error: <none> for url: https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs",
+    "workday:hl.wd1.myworkdayjobs.com/Lateral: HTTPError 521 Server Error: <none> for url: https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Lateral/jobs",
+    "workday:hl.wd1.myworkdayjobs.com/Corporate: HTTPError 521 Server Error: <none> for url: https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Corporate/jobs"
+   ]
   },
   "messier-associes": {
    "name": "Messier & Associés",
@@ -286,9 +294,11 @@
     "workday:blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers",
     "workday:blackstone.wd1.myworkdayjobs.com/Blackstone_Careers"
    ],
-   "matched": 5,
-   "errors": [],
-   "total": 99
+   "matched": 0,
+   "errors": [
+    "workday:blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers: HTTPError 521 Server Error: <none> for url: https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Campus_Careers",
+    "workday:blackstone.wd1.myworkdayjobs.com/Blackstone_Careers: HTTPError 521 Server Error: <none> for url: https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Careers/jobs"
+   ]
   },
   "kkr": {
    "name": "KKR",
@@ -297,7 +307,7 @@
    ],
    "matched": 2,
    "errors": [],
-   "total": 136
+   "total": 137
   },
   "apollo-global-management": {
    "name": "Apollo Global Management",
@@ -305,8 +315,9 @@
     "workday:athene.wd5.myworkdayjobs.com/Apollo_Careers"
    ],
    "matched": 0,
-   "errors": [],
-   "total": 52
+   "errors": [
+    "workday:athene.wd5.myworkdayjobs.com/Apollo_Careers: HTTPError 521 Server Error: <none> for url: https://athene.wd5.myworkdayjobs.com/wday/cxs/athene/Apollo_Careers/jobs"
+   ]
   },
   "carlyle": {
    "name": "Carlyle",
@@ -338,9 +349,10 @@
    "sources": [
     "workday:brookfield.wd5.myworkdayjobs.com/brookfield"
    ],
-   "matched": 1,
-   "errors": [],
-   "total": 120
+   "matched": 0,
+   "errors": [
+    "workday:brookfield.wd5.myworkdayjobs.com/brookfield: HTTPError 521 Server Error: <none> for url: https://brookfield.wd5.myworkdayjobs.com/wday/cxs/brookfield/brookfield/jobs"
+   ]
   },
   "ares-management": {
    "name": "Ares Management",
@@ -387,9 +399,10 @@
    "sources": [
     "workday:blueowl.wd1.myworkdayjobs.com/blueowl"
    ],
-   "matched": 2,
-   "errors": [],
-   "total": 50
+   "matched": 0,
+   "errors": [
+    "workday:blueowl.wd1.myworkdayjobs.com/blueowl: HTTPError 521 Server Error: <none> for url: https://blueowl.wd1.myworkdayjobs.com/wday/cxs/blueowl/blueowl/jobs"
+   ]
   },
   "hps-investment-partners": {
    "name": "HPS Investment Partners",
@@ -414,8 +427,9 @@
     "workday:sixthstreet.wd1.myworkdayjobs.com/sixthstreetcareers"
    ],
    "matched": 0,
-   "errors": [],
-   "total": 17
+   "errors": [
+    "workday:sixthstreet.wd1.myworkdayjobs.com/sixthstreetcareers: HTTPError 521 Server Error: <none> for url: https://sixthstreet.wd1.myworkdayjobs.com/wday/cxs/sixthstreet/sixthstreetcareers/jobs"
+   ]
   },
   "antin-infrastructure-partners": {
    "name": "Antin Infrastructure Partners",
@@ -599,7 +613,7 @@
    ],
    "matched": 1,
    "errors": [],
-   "total": 44
+   "total": 41
   },
   "psp-investments": {
    "name": "PSP Investments",
