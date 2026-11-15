@@ -1,4 +1,146 @@
 {
+ "3i-group": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "accenture-strategy": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "accuracy": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "actis": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "advent-international": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "aea-investors": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "afry": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "aimco": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "airtrunk": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "airtrunk"
+   }
+  ]
+ },
+ "alantra": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "alcentra": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "alixpartners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "alixpartners"
+   }
+  ]
+ },
+ "alphabet-google": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "alvarez-marsal": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "amala-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "amazon-aws": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "amber-infrastructure": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "ashby",
+    "guessed": true,
+    "slug": "amber"
+   }
+  ]
+ },
+ "american-securities": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "americansecurities"
+   }
+  ]
+ },
+ "ancala": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "andera-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "ashby",
+    "guessed": true,
+    "slug": "andera"
+   }
+  ]
+ },
+ "antares-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "antares.wd5.myworkdayjobs.com",
+    "site": "antares",
+    "tenant": "antares"
+   }
+  ]
+ },
  "antin-infrastructure-partners": {
   "checked": "2026-11-13",
   "otherAts": [
@@ -10,6 +152,11 @@
     "slug": "antininfrastructurepartners-1655458195"
    }
   ]
+ },
+ "apax-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
  },
  "apollo-global-management": {
   "checked": "2026-11-13",
@@ -23,6 +170,16 @@
    }
   ]
  },
+ "ara-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "arcmont-asset-management": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "ardian": {
   "checked": "2026-11-13",
   "otherAts": [],
@@ -33,6 +190,42 @@
   "otherAts": [],
   "sources": []
  },
+ "arjun-infrastructure-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "arma-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "arrow-global": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "arsenal-capital-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "arthur-d-little": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "ashby",
+    "guessed": true,
+    "slug": "arthur"
+   }
+  ]
+ },
+ "astorg": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "astris-finance": {
   "checked": "2026-11-13",
   "otherAts": [],
@@ -40,6 +233,16 @@
  },
  "augusta-co": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "aurora-energy-research": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "bain-company": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -67,6 +270,49 @@
    }
   ]
  },
+ "baringa": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "baringa"
+   }
+  ]
+ },
+ "barings": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "barings.wd1.myworkdayjobs.com",
+    "site": "Barings",
+    "tenant": "barings"
+   }
+  ]
+ },
+ "basalt-infrastructure-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "bc-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "bdo": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "blackrock": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "blue-owl-capital": {
   "checked": "2026-11-13",
   "otherAts": [],
@@ -79,8 +325,68 @@
    }
   ]
  },
+ "bmo-capital-markets": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "bnp-paribas": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "boston-consulting-group": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "bowmark-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "bp": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "bpifrance": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "bregal-investments": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "bridgepoint": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "british-international-investment": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "cambon-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "canaccord-genuity": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "capital-four": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "capza": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -107,8 +413,43 @@
    }
   ]
  },
+ "centerbridge-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "centerview-partners": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "centrus": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "cerberus-capital-management": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "charterhouse-capital-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "cheyne-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "cicc": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "cinven": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -130,8 +471,43 @@
    }
   ]
  },
+ "citic-securities-clsa": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "clayton-dubilier-rice": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "clearlake-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "clipperton": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "colt-data-centre-services": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "copenhagen-infrastructure-partners": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "cordiant-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "court-square-capital-partners": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -142,6 +518,11 @@
  },
  "credit-agricole-cib": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "credit-mutuel-alliance-federale-cic": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -168,8 +549,38 @@
   "otherAts": [],
   "sources": []
  },
+ "davidson-kempner": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "dbs": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "dc-advisory": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "deloitte-monitor-deloitte": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "deutsche-bank": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "diameter-capital-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "digital-realty": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -183,8 +594,43 @@
    }
   ]
  },
+ "eci-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "ecp": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "edf-edf-invest": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "edmond-de-rothschild-corporate-finance": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "eiffel-investment-group": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "eight-advisory": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "emz-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "engie": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -199,6 +645,16 @@
    }
   ]
  },
+ "equinix": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "equistone-partners-europe": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "eurazeo": {
   "checked": "2026-11-13",
   "otherAts": [],
@@ -209,11 +665,106 @@
   "otherAts": [],
   "sources": []
  },
+ "exponent": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "ey-ey-parthenon": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "finergreen": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "foresight-group": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "ashby",
+    "guessed": true,
+    "slug": "foresight"
+   }
+  ]
+ },
+ "fortress-investment-group": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "fortress.wd503.myworkdayjobs.com",
+    "site": "Careers",
+    "tenant": "fortress"
+   }
+  ]
+ },
+ "forvis-mazars": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "forvismazars"
+   }
+  ]
+ },
+ "francisco-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "fsn-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "ft-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "fti-consulting": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "general-atlantic": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "slug": "generalatlantic"
+   }
+  ]
+ },
+ "generate-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "ashby",
+    "guessed": true,
+    "slug": "generate"
+   }
+  ]
+ },
  "gic": {
   "checked": "2026-11-13",
   "otherAts": [
    "erreur: ReadTimeout"
   ],
+  "sources": []
+ },
+ "glennmont-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
   "sources": []
  },
  "global-infrastructure-partners-blackrock": {
@@ -226,8 +777,59 @@
   "otherAts": [],
   "sources": []
  },
+ "golub-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "grant-thornton": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "graphite-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "green-giraffe": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "gtcr": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "gtcr"
+   }
+  ]
+ },
+ "h-i-g-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "harris-williams": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "hayfin-capital-management": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "hellman-friedman": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "hg": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -282,6 +884,18 @@
    }
   ]
  },
+ "icg": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "icg.wd3.myworkdayjobs.com",
+    "site": "external_careers",
+    "tenant": "icg"
+   }
+  ]
+ },
  "ifm-investors": {
   "checked": "2026-11-13",
   "otherAts": [],
@@ -292,13 +906,104 @@
   "otherAts": [],
   "sources": []
  },
+ "ik-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "inflexion": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "infravia-capital-partners": {
   "checked": "2026-11-13",
   "otherAts": [],
   "sources": []
  },
+ "ing": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "insight-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "insight"
+   }
+  ]
+ },
+ "investec": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "investindustrial": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "jefferies": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "kartesia": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "kearney": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "keensight-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "kelso-company": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "keppel": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "khazanah-nasional": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "kpmg": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "kroll": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "kuwait-investment-office": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "l-e-k-consulting": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "latour-capital": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -318,6 +1023,37 @@
    }
   ]
  },
+ "lbo-france": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "lee-equity-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "lightyear-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "lincoln-international": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "lincolninternational"
+   }
+  ]
+ },
+ "lindsay-goldberg": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "liontree": {
   "checked": "2026-11-13",
   "otherAts": [],
@@ -329,8 +1065,33 @@
    }
   ]
  },
+ "livingbridge": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "lloyds-banking-group": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "m-g-investments": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "macquarie-group": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "marathon-capital": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "mckinsey-company": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -353,6 +1114,26 @@
   ],
   "sources": []
  },
+ "meta": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "microsoft": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "midocean-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "mizuho-greenhill": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "moelis-company": {
   "checked": "2026-11-13",
   "otherAts": [],
@@ -364,6 +1145,21 @@
     "tenant": "moelis"
    }
   ]
+ },
+ "monroe-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "montagu": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "montefiore-investment": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
  },
  "morgan-stanley": {
   "checked": "2026-11-13",
@@ -382,8 +1178,95 @@
   "otherAts": [],
   "sources": []
  },
+ "mufg": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "mv-credit": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "natixis-cib": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "natixis-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "natwest-group-natwest-markets": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "naxicap-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "neuberger-berman": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "new-mountain-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "nomura": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "nordic-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "novacap": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "nuveen": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "nxt-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "oak-hill-advisors": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "oakhilladvisors"
+   }
+  ]
+ },
+ "oak-hill-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "ashby",
+    "guessed": true,
+    "slug": "oak"
+   }
+  ]
+ },
+ "oaklins": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -392,13 +1275,92 @@
   "otherAts": [],
   "sources": []
  },
+ "octopus-energy-generation": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "odyssey-investment-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "ashby",
+    "guessed": true,
+    "slug": "odyssey"
+   }
+  ]
+ },
+ "oliver-wyman": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "lever",
+    "guessed": true,
+    "slug": "oliverwyman"
+   }
+  ]
+ },
  "omers": {
   "checked": "2026-11-13",
   "otherAts": [],
   "sources": []
  },
+ "ondra-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "one-equity-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "onex": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "slug": "onexgeneral"
+   }
+  ]
+ },
  "ontario-teachers-pension-plan": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "oracle": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "pai-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [
+   "recruitee.com"
+  ],
+  "sources": [
+   {
+    "ats": "recruitee",
+    "slug": "paipartners"
+   }
+  ]
+ },
+ "palladium-equity-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "park-square-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "parquest": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -407,8 +1369,44 @@
   "otherAts": [],
   "sources": []
  },
+ "patrizia-infrastructure": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "pemberton-asset-management": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "ashby",
+    "slug": "Pemberton"
+   }
+  ]
+ },
  "perella-weinberg-partners": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "permira": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "permira"
+   }
+  ]
+ },
+ "pgim": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "pimco": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -423,6 +1421,27 @@
     "tenant": "pjtpartners"
    }
   ]
+ },
+ "platinum-equity": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "platinumequitycareers"
+   }
+  ]
+ },
+ "princeton-digital-group": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "proparco": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
  },
  "psp-investments": {
   "checked": "2026-11-13",
@@ -440,6 +1459,11 @@
    }
   ]
  },
+ "qatalyst-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "qatar-investment-authority": {
   "checked": "2026-11-13",
   "otherAts": [],
@@ -451,13 +1475,119 @@
    }
   ]
  },
+ "qualium-investissement": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "quinbrook-infrastructure-partners": {
   "checked": "2026-11-13",
   "otherAts": [],
   "sources": []
  },
+ "raymond-james": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "rbc-capital-markets": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "reverence-capital-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "rgreen-invest": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "rivage-investment": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "robert-w-baird": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "roland-berger": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "rubicon-infrastructure-advisors": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "sandbrook-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "santander-cib": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "schneider-electric": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "scotiabank": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "searchlight-capital-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "sembcorp-industries": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "sentinel-capital-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "seven2": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "shell": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "sienna-investment-managers": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "silver-lake": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "ashby",
+    "guessed": true,
+    "slug": "silver"
+   }
+  ]
+ },
+ "siparex": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -473,6 +1603,11 @@
    }
   ]
  },
+ "smbc": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "societe-generale": {
   "checked": "2026-11-13",
   "otherAts": [
@@ -480,8 +1615,85 @@
   ],
   "sources": []
  },
+ "solomon-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "sosteneo": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "st-telemedia-global-data-centres": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "standard-chartered": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "stepstone-group": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "stepstone"
+   }
+  ]
+ },
+ "stifel": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "stonepeak": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "strategy-pwc": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "summa-equity": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "susi-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "sycamore-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "ashby",
+    "guessed": true,
+    "slug": "sycamore"
+   }
+  ]
+ },
+ "tailwind-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "tap-advisors": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "td-securities": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -490,8 +1702,60 @@
   "otherAts": [],
   "sources": []
  },
+ "the-jordan-company": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "thoma-bravo": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
  "tikehau-capital": {
   "checked": "2026-11-13",
+  "otherAts": [],
+  "sources": []
+ },
+ "totalenergies": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "towerbrook-capital-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "tpg": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "slug": "tpgcareers"
+   }
+  ]
+ },
+ "trilantic-capital-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "triton-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "workday",
+    "host": "tritonpartners.wd3.myworkdayjobs.com",
+    "site": "External",
+    "tenant": "tritonpartners"
+   }
+  ]
+ },
+ "tzp-group": {
+  "checked": "2026-11-15",
   "otherAts": [],
   "sources": []
  },
@@ -500,12 +1764,89 @@
   "otherAts": [],
   "sources": []
  },
+ "unicredit": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "vantage-data-centers": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "ashby",
+    "guessed": true,
+    "slug": "vantage"
+   }
+  ]
+ },
  "vauban-infrastructure-partners": {
   "checked": "2026-11-13",
   "otherAts": [
    "erreur: SSLError"
   ],
   "sources": []
+ },
+ "veritas-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "vestar-capital-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "vista-equity-partners": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "warburg-pincus": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "waterland-private-equity": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "wells-fargo": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "wellspring-capital-management": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "welsh-carson-anderson-stowe": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "wendel": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "white-summit-capital": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": []
+ },
+ "william-blair": {
+  "checked": "2026-11-15",
+  "otherAts": [],
+  "sources": [
+   {
+    "ats": "greenhouse",
+    "guessed": true,
+    "slug": "williamblair"
+   }
+  ]
  },
  "zaoui-co": {
   "checked": "2026-11-13",
