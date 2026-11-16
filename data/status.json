@@ -1,5 +1,5 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "tiers": [
   1
  ],
@@ -51,7 +51,7 @@
    ],
    "matched": 5,
    "errors": [],
-   "total": 323
+   "total": 320
   },
   "morgan-stanley": {
    "name": "Morgan Stanley",
@@ -68,7 +68,7 @@
    ],
    "matched": 0,
    "errors": [],
-   "total": 570
+   "total": 569
   },
   "citi": {
    "name": "Citi",
@@ -86,7 +86,7 @@
    ],
    "matched": 3,
    "errors": [],
-   "total": 430
+   "total": 431
   },
   "hsbc": {
    "name": "HSBC",
@@ -151,7 +151,7 @@
    ],
    "matched": 0,
    "errors": [],
-   "total": 226
+   "total": 222
   },
   "evercore": {
    "name": "Evercore",
@@ -286,9 +286,9 @@
     "workday:blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers",
     "workday:blackstone.wd1.myworkdayjobs.com/Blackstone_Careers"
    ],
-   "matched": 5,
+   "matched": 4,
    "errors": [],
-   "total": 99
+   "total": 98
   },
   "kkr": {
    "name": "KKR",
@@ -387,9 +387,10 @@
    "sources": [
     "workday:blueowl.wd1.myworkdayjobs.com/blueowl"
    ],
-   "matched": 2,
-   "errors": [],
-   "total": 50
+   "matched": 0,
+   "errors": [
+    "workday:blueowl.wd1.myworkdayjobs.com/blueowl: HTTPError 429 Client Error: Too Many Requests for url: https://blueowl.wd1.myworkdayjobs.com/wday/cxs/blueowl/blueowl/jobs"
+   ]
   },
   "hps-investment-partners": {
    "name": "HPS Investment Partners",
@@ -414,8 +415,9 @@
     "workday:sixthstreet.wd1.myworkdayjobs.com/sixthstreetcareers"
    ],
    "matched": 0,
-   "errors": [],
-   "total": 17
+   "errors": [
+    "workday:sixthstreet.wd1.myworkdayjobs.com/sixthstreetcareers: HTTPError 429 Client Error: Too Many Requests for url: https://sixthstreet.wd1.myworkdayjobs.com/wday/cxs/sixthstreet/sixthstreetc"
+   ]
   },
   "antin-infrastructure-partners": {
    "name": "Antin Infrastructure Partners",
@@ -597,9 +599,11 @@
     "workday:cdpq.wd10.myworkdayjobs.com/CDPQ",
     "workday:cdpq.wd10.myworkdayjobs.com/CDPQ-recrutement-universitaire"
    ],
-   "matched": 1,
-   "errors": [],
-   "total": 40
+   "matched": 0,
+   "errors": [
+    "workday:cdpq.wd10.myworkdayjobs.com/CDPQ: HTTPError 429 Client Error: Too Many Requests for url: https://cdpq.wd10.myworkdayjobs.com/wday/cxs/cdpq/CDPQ/jobs",
+    "workday:cdpq.wd10.myworkdayjobs.com/CDPQ-recrutement-universitaire: HTTPError 429 Client Error: Too Many Requests for url: https://cdpq.wd10.myworkdayjobs.com/wday/cxs/cdpq/CDPQ-recrutement-universi"
+   ]
   },
   "psp-investments": {
    "name": "PSP Investments",
