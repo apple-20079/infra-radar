@@ -1,23 +1,7 @@
 {
- "generated": "2026-11-17T06:25:18Z",
- "count": 19,
+ "generated": "2026-11-18T06:27:46Z",
+ "count": 22,
  "jobs": [
-  {
-   "title": "2027 Global Finance & Business Management Analyst Program - Full-time Analyst - New York Metro",
-   "location": "New York, NY, United States",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802558",
-   "posted": "2026-11-09",
-   "description": "Seeking individuals passionate about analytics, data, and innovation to leverage insights, and AI tools for strategic decision making.",
-   "firm": "J.P. Morgan",
-   "firmId": "j-p-morgan",
-   "category": "Banques",
-   "tier": 1,
-   "ats": "oracle",
-   "city": "New York",
-   "id": "0633cd3bff34",
-   "firstSeen": "2026-11-13",
-   "startHints": []
-  },
   {
    "title": "Center for Carbon Transition, Analyst",
    "location": "New York, NY, United States",
@@ -48,6 +32,22 @@
    "city": "London",
    "id": "f9bf658051df",
    "firstSeen": "2026-11-17",
+   "startHints": []
+  },
+  {
+   "title": "Finance & Business Management - United States - 2027 ReEntry Program",
+   "location": "New York, NY, United States | Chicago, IL, United States | Jersey City, NJ, United States | Plano, TX, United States",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809512",
+   "posted": "2026-11-17",
+   "description": "Relaunch your career with our Global ReEntry Program",
+   "firm": "J.P. Morgan",
+   "firmId": "j-p-morgan",
+   "category": "Banques",
+   "tier": 1,
+   "ats": "oracle",
+   "city": "New York",
+   "id": "dc33fb99597a",
+   "firstSeen": "2026-11-18",
    "startHints": []
   },
   {
@@ -96,6 +96,38 @@
    "city": "New York",
    "id": "408de22d7024",
    "firstSeen": "2026-11-17",
+   "startHints": []
+  },
+  {
+   "title": "Payments - London - 2027 ReEntry Program",
+   "location": "LONDON, LONDON, United Kingdom",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210808799",
+   "posted": "2026-11-17",
+   "description": "Relaunch your career with our Global ReEntry Program",
+   "firm": "J.P. Morgan",
+   "firmId": "j-p-morgan",
+   "category": "Banques",
+   "tier": 1,
+   "ats": "oracle",
+   "city": "London",
+   "id": "f07e4c9f6214",
+   "firstSeen": "2026-11-18",
+   "startHints": []
+  },
+  {
+   "title": "Product Manager - Investor Access - Analyst",
+   "location": "New York, NY, United States",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210810015",
+   "posted": "2026-11-17",
+   "description": "Drive digital transformation in Global Markets by building innovative client platforms for our Corporate Access business",
+   "firm": "J.P. Morgan",
+   "firmId": "j-p-morgan",
+   "category": "Banques",
+   "tier": 1,
+   "ats": "oracle",
+   "city": "New York",
+   "id": "a434e408bde9",
+   "firstSeen": "2026-11-18",
    "startHints": []
   },
   {
@@ -160,6 +192,22 @@
    "city": "New York",
    "id": "58f41e54d7c1",
    "firstSeen": "2026-11-13",
+   "startHints": []
+  },
+  {
+   "title": "Analyste Reporting et Attributions de performances (PMAR) – H/F",
+   "location": "Paris, France",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6671",
+   "posted": "2026-11-17",
+   "description": "Lazard Frères Gestion, pôle français de gestion d’actifs du groupe Lazard, gère plus de 45 Md€ pour une clientèle institutionnelle et privée et compte plus de 240 collaborateurs. Au sein de l’équipe Reporting et Attribution de Performance (5 personnes), vous produirez des reportings de performance, d’attribution, ESG et empreinte carbone, ainsi que des rapports de gestion pour les fonds et portefeuilles clients. Vous contribuerez également aux réponses aux appels d’offres, aux demandes commerciales, à l’alimentation de bases de données consultants et à l’évolution des outils et reportings. Nous recherchons un(e) candidat(e) diplômé(e) d’une école d’ingénieur, de commerce ou d’un cursus universitaire équivalent, disposant d’une expérience confirmée en mesure de performance, attribution et reporting dans l’Asset Management. Rigueur, autonomie, capacité d’analyse, sens du service et anglais courant sont indispensables ; SQL et VBA constituent un atout.",
+   "firm": "Lazard",
+   "firmId": "lazard",
+   "category": "Boutiques M&A",
+   "tier": 1,
+   "ats": "oracle",
+   "city": "Paris",
+   "id": "a123de60cf28",
+   "firstSeen": "2026-11-18",
    "startHints": []
   },
   {
