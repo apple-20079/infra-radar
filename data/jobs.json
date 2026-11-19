@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T06:27:46Z",
+ "generated": "2026-11-19T06:25:06Z",
  "count": 22,
  "jobs": [
   {
@@ -38,7 +38,7 @@
    "title": "Finance & Business Management - United States - 2027 ReEntry Program",
    "location": "New York, NY, United States | Chicago, IL, United States | Jersey City, NJ, United States | Plano, TX, United States",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809512",
-   "posted": "2026-11-17",
+   "posted": "2026-11-18",
    "description": "Relaunch your career with our Global ReEntry Program",
    "firm": "J.P. Morgan",
    "firmId": "j-p-morgan",
@@ -83,22 +83,6 @@
    "startHints": []
   },
   {
-   "title": "Investment Banking- United States - 2027 ReEntry Program",
-   "location": "New York, NY, United States | Chicago, IL, United States | Jersey City, NJ, United States | Palo Alto, CA, United States | Seattle, WA, United States",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809667",
-   "posted": "2026-11-16",
-   "description": "Relaunch your career with our Global ReEntry Program.",
-   "firm": "J.P. Morgan",
-   "firmId": "j-p-morgan",
-   "category": "Banques",
-   "tier": 1,
-   "ats": "oracle",
-   "city": "New York",
-   "id": "408de22d7024",
-   "firstSeen": "2026-11-17",
-   "startHints": []
-  },
-  {
    "title": "Payments - London - 2027 ReEntry Program",
    "location": "LONDON, LONDON, United Kingdom",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210808799",
@@ -128,22 +112,6 @@
    "city": "New York",
    "id": "a434e408bde9",
    "firstSeen": "2026-11-18",
-   "startHints": []
-  },
-  {
-   "title": "Securities Services - Bournemouth - 2027 ReEntry Program",
-   "location": "BOURNEMOUTH, DORSET, United Kingdom",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809188",
-   "posted": "2026-11-16",
-   "description": "Relaunch your career with our Global ReEntry Program.",
-   "firm": "J.P. Morgan",
-   "firmId": "j-p-morgan",
-   "category": "Banques",
-   "tier": 1,
-   "ats": "oracle",
-   "city": "London",
-   "id": "c60dfc85648f",
-   "firstSeen": "2026-11-17",
    "startHints": []
   },
   {
@@ -192,6 +160,38 @@
    "city": "New York",
    "id": "58f41e54d7c1",
    "firstSeen": "2026-11-13",
+   "startHints": []
+  },
+  {
+   "title": "Real Assets Product Specialist - Analyst",
+   "location": "London, England, United Kingdom",
+   "url": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=6197625004",
+   "posted": "2026-11-03",
+   "description": "<div class=\"content-intro\"><p><strong>COMPANY OVERVIEW</strong></p> <p>KKR is a leading global investment firm that offers alternative asset management as well as capital markets and insurance solutions. KKR aims to generate attractive investment returns by following a patient and disciplined investment approach, employing world-class people, and supporting growth in its portfolio companies and communities. KKR sponsors investment funds that invest in private equity, credit and real assets and has strategic partners that manage hedge funds. KKR’s insurance subsidiaries offer retirement, life and reinsurance products under the management of Global Atlantic Financial Group. References to KKR’s investments may include the activities of its sponsored funds and insurance subsidiaries.</p></div><p><strong>TEAM OVERVIEW</strong></p> <p><br>The Global Client Solutions Group (“KCS”) is KKR’s dedicated investor solutions team. KCS was first formed in 2009 to invest in and focus on KKR’s relationships with current and potential investors. Today, KCS consists of over 200 executives located in 13 offices across four continents. The KCS platform is primarily organized around two focus areas: Sales/Relationship Management and Product/Strategy Management. KCS seeks to “connect the dots” across all businesses at KKR, from our Real Estate investing teams to Private Equity, Infrastructure, Credit and Capital Markets, to deliver all of KKR’s intellectual capital and solutions to our investing partners. The group’s long-term objective is to further diversify KKR’s client base, across all regions and institution types, and to raise capital for the firm’s expanding product platform through developing, structuring and maintaining collaborative partnerships with our investors.</p> <p><br><stron",
+   "firm": "KKR",
+   "firmId": "kkr",
+   "category": "PE large cap",
+   "tier": 1,
+   "ats": "greenhouse",
+   "city": "London",
+   "id": "45d011228806",
+   "firstSeen": "2026-11-19",
+   "startHints": []
+  },
+  {
+   "title": "Analyst - Financial Institutions Group",
+   "location": "New York, United States",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6564",
+   "posted": "2026-11-18",
+   "description": "",
+   "firm": "Lazard",
+   "firmId": "lazard",
+   "category": "Boutiques M&A",
+   "tier": 1,
+   "ats": "oracle",
+   "city": "New York",
+   "id": "a72247994833",
+   "firstSeen": "2026-11-19",
    "startHints": []
   },
   {

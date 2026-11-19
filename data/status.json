@@ -1,5 +1,5 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "tiers": [
   1
  ],
@@ -49,9 +49,9 @@
    "sources": [
     "oracle:jpmc.fa.oraclecloud.com/CX_1001"
    ],
-   "matched": 10,
+   "matched": 8,
    "errors": [],
-   "total": 323
+   "total": 305
   },
   "morgan-stanley": {
    "name": "Morgan Stanley",
@@ -130,7 +130,7 @@
    ],
    "matched": 14,
    "errors": [],
-   "total": 123,
+   "total": 119,
    "sample": [
     "2027 Global Advisory Long Term Internship - Singapore",
     "Global Advisory - Spain - Madrid - Graduate 2027",
@@ -152,9 +152,9 @@
     "oracle:icbpjb.fa.ocs.oraclecloud.com/LazardProfessionalCareers",
     "oracle:icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers"
    ],
-   "matched": 2,
+   "matched": 4,
    "errors": [],
-   "total": 222
+   "total": 198
   },
   "evercore": {
    "name": "Evercore",
@@ -306,9 +306,9 @@
    "sources": [
     "greenhouse:stage"
    ],
-   "matched": 2,
+   "matched": 3,
    "errors": [],
-   "total": 132
+   "total": 140
   },
   "apollo-global-management": {
    "name": "Apollo Global Management",
