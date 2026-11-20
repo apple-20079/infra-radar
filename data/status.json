@@ -1,5 +1,5 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "tiers": [
   1
  ],
@@ -49,9 +49,9 @@
    "sources": [
     "oracle:jpmc.fa.oraclecloud.com/CX_1001"
    ],
-   "matched": 8,
+   "matched": 5,
    "errors": [],
-   "total": 305
+   "total": 303
   },
   "morgan-stanley": {
    "name": "Morgan Stanley",
@@ -130,20 +130,20 @@
    ],
    "matched": 14,
    "errors": [],
-   "total": 119,
+   "total": 123,
    "sample": [
     "2027 Global Advisory Long Term Internship - Singapore",
     "Global Advisory - Spain - Madrid - Graduate 2027",
     "2027 Global Advisory Summer Internship Programme - Hong Kong",
     "Global Advisory - Spain - Madrid - Long Term Internship (6 months starting January or July 2027)",
-    "Germany – Frankfurt – Global Market Solutions – ECM – Summer Internship 2027",
+    "Germany - Frankfurt - Global Financing Solutions and Restructuring & Liability Management - Spring Internship 2027",
+    "Germany – Frankfurt – Global Markets Solutions – ECM – Summer Internship 2027",
     "US 2028 Global Advisory Summer Analyst - Global Markets Solutions, New York",
     "US Global Advisory | 2027 Sophomore Leadership Program",
     "2027 UK Global Advisory Off-Cycle Internship",
     "Global Advisory Internship - Poland 2027",
     "2027 Off-Cycle Internship - Denmark Team",
-    "Stage – Transaction R & Co - Global Advisory – Juillet/Septembre 2027",
-    "Long Term Internship – Healthcare coverage team – Global Advisory – Juillet 2027"
+    "Stage – Transaction R & Co - Global Advisory – Juillet/Septembre 2027"
    ]
   },
   "lazard": {
@@ -154,7 +154,7 @@
    ],
    "matched": 4,
    "errors": [],
-   "total": 198
+   "total": 200
   },
   "evercore": {
    "name": "Evercore",
@@ -306,7 +306,7 @@
    "sources": [
     "greenhouse:stage"
    ],
-   "matched": 3,
+   "matched": 4,
    "errors": [],
    "total": 140
   },
@@ -498,7 +498,7 @@
    ],
    "matched": 0,
    "errors": [],
-   "total": 4
+   "total": 5
   },
   "vauban-infrastructure-partners": {
    "name": "Vauban Infrastructure Partners",
