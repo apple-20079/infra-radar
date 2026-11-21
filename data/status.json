@@ -1,5 +1,5 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "tiers": [
   1
  ],
@@ -51,7 +51,7 @@
    ],
    "matched": 5,
    "errors": [],
-   "total": 303
+   "total": 319
   },
   "morgan-stanley": {
    "name": "Morgan Stanley",
@@ -154,7 +154,7 @@
    ],
    "matched": 4,
    "errors": [],
-   "total": 200
+   "total": 194
   },
   "evercore": {
    "name": "Evercore",
@@ -229,7 +229,7 @@
    "sources": [],
    "matched": 0,
    "errors": [
-    "aucune source trouvée (logiciel repéré : erreur: ConnectionError)"
+    "aucune source trouvée (logiciel repéré : erreur: SSLError)"
    ]
   },
   "zaoui-co": {
@@ -306,9 +306,9 @@
    "sources": [
     "greenhouse:stage"
    ],
-   "matched": 4,
+   "matched": 3,
    "errors": [],
-   "total": 140
+   "total": 133
   },
   "apollo-global-management": {
    "name": "Apollo Global Management",
@@ -343,7 +343,7 @@
    ],
    "matched": 0,
    "errors": [],
-   "total": 11
+   "total": 13
   },
   "brookfield-asset-management": {
    "name": "Brookfield Asset Management",
@@ -561,7 +561,7 @@
    "sources": [],
    "matched": 0,
    "errors": [
-    "aucune source trouvée (logiciel repéré : erreur: ReadTimeout)"
+    "aucune source trouvée"
    ]
   },
   "temasek": {
@@ -614,8 +614,8 @@
    ],
    "matched": 0,
    "errors": [
-    "workday:cdpq.wd10.myworkdayjobs.com/CDPQ: HTTPError 429 Client Error: Too Many Requests for url: https://cdpq.wd10.myworkdayjobs.com/wday/cxs/cdpq/CDPQ/jobs",
-    "workday:cdpq.wd10.myworkdayjobs.com/CDPQ-recrutement-universitaire: HTTPError 429 Client Error: Too Many Requests for url: https://cdpq.wd10.myworkdayjobs.com/wday/cxs/cdpq/CDPQ-recrutement-universi"
+    "workday:cdpq.wd10.myworkdayjobs.com/CDPQ: HTTPError 500 Server Error: Internal Server Error for url: https://cdpq.wd10.myworkdayjobs.com/wday/cxs/cdpq/CDPQ/jobs",
+    "workday:cdpq.wd10.myworkdayjobs.com/CDPQ-recrutement-universitaire: HTTPError 500 Server Error: Internal Server Error for url: https://cdpq.wd10.myworkdayjobs.com/wday/cxs/cdpq/CDPQ-recrutement-univ"
    ]
   },
   "psp-investments": {

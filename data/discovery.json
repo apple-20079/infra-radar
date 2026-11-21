@@ -142,7 +142,7 @@
   ]
  },
  "antin-infrastructure-partners": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [
    "teamtailor.com"
   ],
@@ -159,7 +159,7 @@
   "sources": []
  },
  "apollo-global-management": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -181,12 +181,12 @@
   "sources": []
  },
  "ardian": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
  "ares-management": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -227,12 +227,12 @@
   "sources": []
  },
  "astris-finance": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
  "augusta-co": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -247,7 +247,7 @@
   "sources": []
  },
  "bank-of-america": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -259,7 +259,7 @@
   ]
  },
  "barclays": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -314,7 +314,7 @@
   "sources": []
  },
  "blue-owl-capital": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -331,7 +331,7 @@
   "sources": []
  },
  "bnp-paribas": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -391,12 +391,12 @@
   "sources": []
  },
  "carlyle": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
  "cdpq-la-caisse": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -419,7 +419,7 @@
   "sources": []
  },
  "centerview-partners": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -497,7 +497,7 @@
   "sources": []
  },
  "copenhagen-infrastructure-partners": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -512,12 +512,12 @@
   "sources": []
  },
  "cpp-investments": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
  "credit-agricole-cib": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -540,12 +540,12 @@
   ]
  },
  "cvc": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
  "cvc-dif": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -570,7 +570,7 @@
   "sources": []
  },
  "deutsche-bank": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -585,7 +585,7 @@
   "sources": []
  },
  "digitalbridge": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -600,7 +600,7 @@
   "sources": []
  },
  "ecp": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -635,7 +635,7 @@
   "sources": []
  },
  "eqt": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -656,12 +656,12 @@
   "sources": []
  },
  "eurazeo": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
  "evercore": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -756,10 +756,8 @@
   ]
  },
  "gic": {
-  "checked": "2026-11-13",
-  "otherAts": [
-   "erreur: ReadTimeout"
-  ],
+  "checked": "2026-11-21",
+  "otherAts": [],
   "sources": []
  },
  "glennmont-partners": {
@@ -768,12 +766,12 @@
   "sources": []
  },
  "global-infrastructure-partners-blackrock": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
  "goldman-sachs": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -793,7 +791,7 @@
   "sources": []
  },
  "green-giraffe": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -834,7 +832,7 @@
   "sources": []
  },
  "houlihan-lokey": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -858,7 +856,7 @@
   ]
  },
  "hps-investment-partners": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -869,12 +867,12 @@
   ]
  },
  "hsbc": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
  "i-squared-capital": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -897,12 +895,12 @@
   ]
  },
  "ifm-investors": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
  "igneo-infrastructure-partners": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -917,7 +915,7 @@
   "sources": []
  },
  "infravia-capital-partners": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -948,7 +946,7 @@
   "sources": []
  },
  "jefferies": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1008,7 +1006,7 @@
   "sources": []
  },
  "lazard": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -1055,7 +1053,7 @@
   "sources": []
  },
  "liontree": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -1086,7 +1084,7 @@
   "sources": []
  },
  "marathon-capital": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1096,7 +1094,7 @@
   "sources": []
  },
  "meridiam": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [
    "recruitee.com"
   ],
@@ -1108,9 +1106,9 @@
   ]
  },
  "messier-associes": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [
-   "erreur: ConnectionError"
+   "erreur: SSLError"
   ],
   "sources": []
  },
@@ -1135,7 +1133,7 @@
   "sources": []
  },
  "moelis-company": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -1174,7 +1172,7 @@
   ]
  },
  "mubadala": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1189,7 +1187,7 @@
   "sources": []
  },
  "natixis-cib": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1271,7 +1269,7 @@
   "sources": []
  },
  "oaktree-capital-management": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1303,7 +1301,7 @@
   ]
  },
  "omers": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1328,7 +1326,7 @@
   ]
  },
  "ontario-teachers-pension-plan": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1365,7 +1363,7 @@
   "sources": []
  },
  "partners-group": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1385,7 +1383,7 @@
   ]
  },
  "perella-weinberg-partners": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1411,7 +1409,7 @@
   "sources": []
  },
  "pjt-partners": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -1444,12 +1442,12 @@
   "sources": []
  },
  "psp-investments": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
  "public-investment-fund": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -1465,7 +1463,7 @@
   "sources": []
  },
  "qatar-investment-authority": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -1481,7 +1479,7 @@
   "sources": []
  },
  "quinbrook-infrastructure-partners": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1521,7 +1519,7 @@
   "sources": []
  },
  "rubicon-infrastructure-advisors": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1592,7 +1590,7 @@
   "sources": []
  },
  "sixth-street": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": [
    {
@@ -1609,7 +1607,7 @@
   "sources": []
  },
  "societe-generale": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [
    "taleo.net"
   ],
@@ -1652,7 +1650,7 @@
   "sources": []
  },
  "stonepeak": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1698,7 +1696,7 @@
   "sources": []
  },
  "temasek": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1713,7 +1711,7 @@
   "sources": []
  },
  "tikehau-capital": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1760,7 +1758,7 @@
   "sources": []
  },
  "ubs": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  },
@@ -1781,7 +1779,7 @@
   ]
  },
  "vauban-infrastructure-partners": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [
    "erreur: SSLError"
   ],
@@ -1849,7 +1847,7 @@
   ]
  },
  "zaoui-co": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "otherAts": [],
   "sources": []
  }
