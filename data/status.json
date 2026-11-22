@@ -1,7 +1,8 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "tiers": [
-  1
+  1,
+  2
  ],
  "firms": {
   "bnp-paribas": {
@@ -36,6 +37,30 @@
     "aucune source trouvée"
    ]
   },
+  "credit-mutuel-alliance-federale-cic": {
+   "name": "Crédit Mutuel Alliance Fédérale / CIC",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "cicc": {
+   "name": "CICC",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "bpifrance": {
+   "name": "Bpifrance",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
   "goldman-sachs": {
    "name": "Goldman Sachs",
    "sources": [],
@@ -51,7 +76,7 @@
    ],
    "matched": 5,
    "errors": [],
-   "total": 319
+   "total": 329
   },
   "morgan-stanley": {
    "name": "Morgan Stanley",
@@ -99,6 +124,38 @@
     "aucune source trouvée"
    ]
   },
+  "standard-chartered": {
+   "name": "Standard Chartered",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "natwest-group-natwest-markets": {
+   "name": "NatWest Group / NatWest Markets",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "lloyds-banking-group": {
+   "name": "Lloyds Banking Group",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "investec": {
+   "name": "Investec",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
   "deutsche-bank": {
    "name": "Deutsche Bank",
    "sources": [],
@@ -115,8 +172,120 @@
     "aucune source trouvée"
    ]
   },
+  "santander-cib": {
+   "name": "Santander CIB",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "unicredit": {
+   "name": "UniCredit",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "ing": {
+   "name": "ING",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "citic-securities-clsa": {
+   "name": "CITIC Securities / CLSA",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "rbc-capital-markets": {
+   "name": "RBC Capital Markets",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "td-securities": {
+   "name": "TD Securities",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "bmo-capital-markets": {
+   "name": "BMO Capital Markets",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "scotiabank": {
+   "name": "Scotiabank",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "wells-fargo": {
+   "name": "Wells Fargo",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
   "jefferies": {
    "name": "Jefferies",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "mufg": {
+   "name": "MUFG",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "smbc": {
+   "name": "SMBC",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "mizuho-greenhill": {
+   "name": "Mizuho / Greenhill",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "nomura": {
+   "name": "Nomura",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "dbs": {
+   "name": "DBS",
    "sources": [],
    "matched": 0,
    "errors": [
@@ -154,7 +323,7 @@
    ],
    "matched": 4,
    "errors": [],
-   "total": 194
+   "total": 192
   },
   "evercore": {
    "name": "Evercore",
@@ -224,6 +393,96 @@
     "workday:hl.wd1.myworkdayjobs.com/Corporate: HTTPError 429 Client Error: Too Many Requests for url: https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Corporate/jobs"
    ]
   },
+  "william-blair": {
+   "name": "William Blair",
+   "sources": [
+    "greenhouse:williamblair"
+   ],
+   "matched": 2,
+   "errors": [],
+   "total": 48
+  },
+  "robert-w-baird": {
+   "name": "Robert W. Baird",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "harris-williams": {
+   "name": "Harris Williams",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "lincoln-international": {
+   "name": "Lincoln International",
+   "sources": [
+    "greenhouse:lincolninternational"
+   ],
+   "matched": 6,
+   "errors": [],
+   "total": 40
+  },
+  "raymond-james": {
+   "name": "Raymond James",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "stifel": {
+   "name": "Stifel",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "canaccord-genuity": {
+   "name": "Canaccord Genuity",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "dc-advisory": {
+   "name": "DC Advisory",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "alantra": {
+   "name": "Alantra",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "natixis-partners": {
+   "name": "Natixis Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "amala-partners": {
+   "name": "Amala Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
   "messier-associes": {
    "name": "Messier & Associés",
    "sources": [],
@@ -240,6 +499,30 @@
     "aucune source trouvée"
    ]
   },
+  "ondra-partners": {
+   "name": "Ondra Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "arma-partners": {
+   "name": "Arma Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "qatalyst-partners": {
+   "name": "Qatalyst Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
   "liontree": {
    "name": "LionTree",
    "sources": [
@@ -248,6 +531,38 @@
    "matched": 0,
    "errors": [],
    "total": 2
+  },
+  "centrus": {
+   "name": "Centrus",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "ft-partners": {
+   "name": "FT Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "tap-advisors": {
+   "name": "TAP Advisors",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "solomon-partners": {
+   "name": "Solomon Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
   },
   "marathon-capital": {
    "name": "Marathon Capital",
@@ -283,6 +598,46 @@
   },
   "rubicon-infrastructure-advisors": {
    "name": "Rubicon Infrastructure Advisors",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "finergreen": {
+   "name": "Finergreen",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "clipperton": {
+   "name": "Clipperton",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "cambon-partners": {
+   "name": "Cambon Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "oaklins": {
+   "name": "Oaklins",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "edmond-de-rothschild-corporate-finance": {
+   "name": "Edmond de Rothschild Corporate Finance",
    "sources": [],
    "matched": 0,
    "errors": [
@@ -328,6 +683,33 @@
     "aucune source trouvée"
    ]
   },
+  "tpg": {
+   "name": "TPG",
+   "sources": [
+    "greenhouse:tpgcareers"
+   ],
+   "matched": 1,
+   "errors": [],
+   "total": 12
+  },
+  "bain-capital": {
+   "name": "Bain Capital",
+   "sources": [
+    "workday:baincapital.wd1.myworkdayjobs.com/External_Public"
+   ],
+   "matched": 0,
+   "errors": [
+    "workday:baincapital.wd1.myworkdayjobs.com/External_Public: HTTPError 429 Client Error: Too Many Requests for url: https://baincapital.wd1.myworkdayjobs.com/wday/cxs/baincapital/External_Pub"
+   ]
+  },
+  "advent-international": {
+   "name": "Advent International",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
   "cvc": {
    "name": "CVC",
    "sources": [],
@@ -344,6 +726,56 @@
    "matched": 0,
    "errors": [],
    "total": 13
+  },
+  "warburg-pincus": {
+   "name": "Warburg Pincus",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "hellman-friedman": {
+   "name": "Hellman & Friedman",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "silver-lake": {
+   "name": "Silver Lake",
+   "sources": [
+    "ashby:silver"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 34
+  },
+  "thoma-bravo": {
+   "name": "Thoma Bravo",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "vista-equity-partners": {
+   "name": "Vista Equity Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "general-atlantic": {
+   "name": "General Atlantic",
+   "sources": [
+    "greenhouse:generalatlantic"
+   ],
+   "matched": 1,
+   "errors": [],
+   "total": 12
   },
   "brookfield-asset-management": {
    "name": "Brookfield Asset Management",
@@ -379,8 +811,269 @@
     "aucune source trouvée"
    ]
   },
+  "pai-partners": {
+   "name": "PAI Partners",
+   "sources": [
+    "recruitee:paipartners"
+   ],
+   "matched": 2,
+   "errors": [],
+   "total": 8
+  },
+  "cinven": {
+   "name": "Cinven",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "permira": {
+   "name": "Permira",
+   "sources": [
+    "greenhouse:permira"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 0
+  },
+  "bc-partners": {
+   "name": "BC Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "bridgepoint": {
+   "name": "Bridgepoint",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "hg": {
+   "name": "Hg",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "apax-partners": {
+   "name": "Apax Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "icg": {
+   "name": "ICG",
+   "sources": [
+    "workday:icg.wd3.myworkdayjobs.com/external_careers"
+   ],
+   "matched": 0,
+   "errors": [
+    "workday:icg.wd3.myworkdayjobs.com/external_careers: HTTPError 429 Client Error: Too Many Requests for url: https://icg.wd3.myworkdayjobs.com/wday/cxs/icg/external_careers/jobs"
+   ]
+  },
   "eurazeo": {
    "name": "Eurazeo",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "investindustrial": {
+   "name": "Investindustrial",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "triton-partners": {
+   "name": "Triton Partners",
+   "sources": [
+    "workday:tritonpartners.wd3.myworkdayjobs.com/External"
+   ],
+   "matched": 0,
+   "errors": [
+    "workday:tritonpartners.wd3.myworkdayjobs.com/External: HTTPError 429 Client Error: Too Many Requests for url: https://tritonpartners.wd3.myworkdayjobs.com/wday/cxs/tritonpartners/Extern"
+   ]
+  },
+  "onex": {
+   "name": "Onex",
+   "sources": [
+    "greenhouse:onexgeneral"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 2
+  },
+  "clayton-dubilier-rice": {
+   "name": "Clayton Dubilier & Rice",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "sycamore-partners": {
+   "name": "Sycamore Partners",
+   "sources": [
+    "ashby:sycamore"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 15
+  },
+  "welsh-carson-anderson-stowe": {
+   "name": "Welsh Carson Anderson & Stowe",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "new-mountain-capital": {
+   "name": "New Mountain Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "veritas-capital": {
+   "name": "Veritas Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "platinum-equity": {
+   "name": "Platinum Equity",
+   "sources": [
+    "greenhouse:platinumequitycareers"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 2
+  },
+  "american-securities": {
+   "name": "American Securities",
+   "sources": [
+    "greenhouse:americansecurities"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 0
+  },
+  "lindsay-goldberg": {
+   "name": "Lindsay Goldberg",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "cerberus-capital-management": {
+   "name": "Cerberus Capital Management",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "centerbridge-partners": {
+   "name": "Centerbridge Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "fortress-investment-group": {
+   "name": "Fortress Investment Group",
+   "sources": [
+    "workday:fortress.wd503.myworkdayjobs.com/Careers"
+   ],
+   "matched": 1,
+   "errors": [],
+   "total": 11
+  },
+  "francisco-partners": {
+   "name": "Francisco Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "gtcr": {
+   "name": "GTCR",
+   "sources": [
+    "greenhouse:gtcr"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 0
+  },
+  "clearlake-capital": {
+   "name": "Clearlake Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "insight-partners": {
+   "name": "Insight Partners",
+   "sources": [
+    "greenhouse:insight"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 4
+  },
+  "wendel": {
+   "name": "Wendel",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "3i-group": {
+   "name": "3i Group",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "astorg": {
+   "name": "Astorg",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "towerbrook-capital-partners": {
+   "name": "TowerBrook Capital Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "montagu": {
+   "name": "Montagu",
    "sources": [],
    "matched": 0,
    "errors": [
@@ -394,6 +1087,393 @@
    "errors": [
     "aucune source trouvée"
    ]
+  },
+  "capza": {
+   "name": "CAPZA",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "andera-partners": {
+   "name": "Andera Partners",
+   "sources": [
+    "ashby:andera"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 5
+  },
+  "naxicap-partners": {
+   "name": "Naxicap Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "siparex": {
+   "name": "Siparex",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "lbo-france": {
+   "name": "LBO France",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "latour-capital": {
+   "name": "Latour Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "montefiore-investment": {
+   "name": "Montefiore Investment",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "ik-partners": {
+   "name": "IK Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "waterland-private-equity": {
+   "name": "Waterland Private Equity",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "equistone-partners-europe": {
+   "name": "Equistone Partners Europe",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "emz-partners": {
+   "name": "EMZ Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "seven2": {
+   "name": "Seven2",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "qualium-investissement": {
+   "name": "Qualium Investissement",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "keensight-capital": {
+   "name": "Keensight Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "aea-investors": {
+   "name": "AEA Investors",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "fsn-capital": {
+   "name": "FSN Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "nordic-capital": {
+   "name": "Nordic Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "bregal-investments": {
+   "name": "Bregal Investments",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "summa-equity": {
+   "name": "Summa Equity",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "parquest": {
+   "name": "Parquest",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "inflexion": {
+   "name": "Inflexion",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "livingbridge": {
+   "name": "Livingbridge",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "bowmark-capital": {
+   "name": "Bowmark Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "eci-partners": {
+   "name": "ECI Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "exponent": {
+   "name": "Exponent",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "graphite-capital": {
+   "name": "Graphite Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "charterhouse-capital-partners": {
+   "name": "Charterhouse Capital Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "h-i-g-capital": {
+   "name": "H.I.G. Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "trilantic-capital-partners": {
+   "name": "Trilantic Capital Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "one-equity-partners": {
+   "name": "One Equity Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "court-square-capital-partners": {
+   "name": "Court Square Capital Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "kelso-company": {
+   "name": "Kelso & Company",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "midocean-partners": {
+   "name": "MidOcean Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "sentinel-capital-partners": {
+   "name": "Sentinel Capital Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "wellspring-capital-management": {
+   "name": "Wellspring Capital Management",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "the-jordan-company": {
+   "name": "The Jordan Company",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "vestar-capital-partners": {
+   "name": "Vestar Capital Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "lightyear-capital": {
+   "name": "Lightyear Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "lee-equity-partners": {
+   "name": "Lee Equity Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "tailwind-capital": {
+   "name": "Tailwind Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "arsenal-capital-partners": {
+   "name": "Arsenal Capital Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "palladium-equity-partners": {
+   "name": "Palladium Equity Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "odyssey-investment-partners": {
+   "name": "Odyssey Investment Partners",
+   "sources": [
+    "ashby:odyssey"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 3
+  },
+  "tzp-group": {
+   "name": "TZP Group",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "reverence-capital-partners": {
+   "name": "Reverence Capital Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "searchlight-capital-partners": {
+   "name": "Searchlight Capital Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "novacap": {
+   "name": "Novacap",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "oak-hill-capital": {
+   "name": "Oak Hill Capital",
+   "sources": [
+    "ashby:oak"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 13
   },
   "blue-owl-capital": {
    "name": "Blue Owl Capital",
@@ -430,6 +1510,221 @@
    "matched": 0,
    "errors": [
     "workday:sixthstreet.wd1.myworkdayjobs.com/sixthstreetcareers: HTTPError 429 Client Error: Too Many Requests for url: https://sixthstreet.wd1.myworkdayjobs.com/wday/cxs/sixthstreet/sixthstreetc"
+   ]
+  },
+  "golub-capital": {
+   "name": "Golub Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "antares-capital": {
+   "name": "Antares Capital",
+   "sources": [
+    "workday:antares.wd5.myworkdayjobs.com/antares"
+   ],
+   "matched": 0,
+   "errors": [
+    "workday:antares.wd5.myworkdayjobs.com/antares: HTTPError 429 Client Error: Too Many Requests for url: https://antares.wd5.myworkdayjobs.com/wday/cxs/antares/antares/jobs"
+   ]
+  },
+  "hayfin-capital-management": {
+   "name": "Hayfin Capital Management",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "pemberton-asset-management": {
+   "name": "Pemberton Asset Management",
+   "sources": [
+    "ashby:Pemberton"
+   ],
+   "matched": 1,
+   "errors": [],
+   "total": 3
+  },
+  "arcmont-asset-management": {
+   "name": "Arcmont Asset Management",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "barings": {
+   "name": "Barings",
+   "sources": [
+    "workday:barings.wd1.myworkdayjobs.com/Barings"
+   ],
+   "matched": 0,
+   "errors": [
+    "workday:barings.wd1.myworkdayjobs.com/Barings: HTTPError 429 Client Error: Too Many Requests for url: https://barings.wd1.myworkdayjobs.com/wday/cxs/barings/Barings/jobs"
+   ]
+  },
+  "pgim": {
+   "name": "PGIM",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "nuveen": {
+   "name": "Nuveen",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "m-g-investments": {
+   "name": "M&G Investments",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "macquarie-group": {
+   "name": "Macquarie Group",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "blackrock": {
+   "name": "BlackRock",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "stepstone-group": {
+   "name": "StepStone Group",
+   "sources": [
+    "greenhouse:stepstone"
+   ],
+   "matched": 6,
+   "errors": [],
+   "total": 61
+  },
+  "neuberger-berman": {
+   "name": "Neuberger Berman",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "alcentra": {
+   "name": "Alcentra",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "kartesia": {
+   "name": "Kartesia",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "mv-credit": {
+   "name": "MV Credit",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "park-square-capital": {
+   "name": "Park Square Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "cheyne-capital": {
+   "name": "Cheyne Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "arrow-global": {
+   "name": "Arrow Global",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "davidson-kempner": {
+   "name": "Davidson Kempner",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "oak-hill-advisors": {
+   "name": "Oak Hill Advisors",
+   "sources": [
+    "greenhouse:oakhilladvisors"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 6
+  },
+  "diameter-capital-partners": {
+   "name": "Diameter Capital Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "pimco": {
+   "name": "PIMCO",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "monroe-capital": {
+   "name": "Monroe Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "nxt-capital": {
+   "name": "NXT Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "capital-four": {
+   "name": "Capital Four",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
    ]
   },
   "antin-infrastructure-partners": {
@@ -540,12 +1835,158 @@
     "aucune source trouvée"
    ]
   },
+  "actis": {
+   "name": "Actis",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "glennmont-partners": {
+   "name": "Glennmont Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "foresight-group": {
+   "name": "Foresight Group",
+   "sources": [
+    "ashby:foresight"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 2
+  },
+  "octopus-energy-generation": {
+   "name": "Octopus Energy Generation",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "amber-infrastructure": {
+   "name": "Amber Infrastructure",
+   "sources": [
+    "ashby:amber"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 24
+  },
+  "cordiant-capital": {
+   "name": "Cordiant Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
   "cube-infrastructure-managers": {
    "name": "Cube Infrastructure Managers",
    "sources": [],
    "matched": 0,
    "errors": [
     "pas de source automatique (couvert par la recherche web)"
+   ]
+  },
+  "white-summit-capital": {
+   "name": "White Summit Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "basalt-infrastructure-partners": {
+   "name": "Basalt Infrastructure Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "ancala": {
+   "name": "Ancala",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "arjun-infrastructure-partners": {
+   "name": "Arjun Infrastructure Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "patrizia-infrastructure": {
+   "name": "Patrizia Infrastructure",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "susi-partners": {
+   "name": "SUSI Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "eiffel-investment-group": {
+   "name": "Eiffel Investment Group",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "rgreen-invest": {
+   "name": "RGREEN INVEST",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "rivage-investment": {
+   "name": "Rivage Investment",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "sienna-investment-managers": {
+   "name": "Sienna Investment Managers",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "sosteneo": {
+   "name": "Sosteneo",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "sandbrook-capital": {
+   "name": "Sandbrook Capital",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
    ]
   },
   "quinbrook-infrastructure-partners": {
@@ -555,6 +1996,23 @@
    "errors": [
     "aucune source trouvée"
    ]
+  },
+  "ara-partners": {
+   "name": "Ara Partners",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "generate-capital": {
+   "name": "Generate Capital",
+   "sources": [
+    "ashby:generate"
+   ],
+   "matched": 1,
+   "errors": [],
+   "total": 13
   },
   "gic": {
    "name": "GIC",
@@ -589,6 +2047,14 @@
    "errors": [],
    "total": 0
   },
+  "kuwait-investment-office": {
+   "name": "Kuwait Investment Office",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
   "public-investment-fund": {
    "name": "Public Investment Fund",
    "sources": [
@@ -597,6 +2063,14 @@
    "matched": 0,
    "errors": [],
    "total": 0
+  },
+  "khazanah-nasional": {
+   "name": "Khazanah Nasional",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
   },
   "cpp-investments": {
    "name": "CPP Investments",
@@ -612,11 +2086,9 @@
     "workday:cdpq.wd10.myworkdayjobs.com/CDPQ",
     "workday:cdpq.wd10.myworkdayjobs.com/CDPQ-recrutement-universitaire"
    ],
-   "matched": 0,
-   "errors": [
-    "workday:cdpq.wd10.myworkdayjobs.com/CDPQ: HTTPError 500 Server Error: Internal Server Error for url: https://cdpq.wd10.myworkdayjobs.com/wday/cxs/cdpq/CDPQ/jobs",
-    "workday:cdpq.wd10.myworkdayjobs.com/CDPQ-recrutement-universitaire: HTTPError 500 Server Error: Internal Server Error for url: https://cdpq.wd10.myworkdayjobs.com/wday/cxs/cdpq/CDPQ-recrutement-univ"
-   ]
+   "matched": 1,
+   "errors": [],
+   "total": 40
   },
   "psp-investments": {
    "name": "PSP Investments",
@@ -636,6 +2108,397 @@
   },
   "omers": {
    "name": "OMERS",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "aimco": {
+   "name": "AIMCo",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "british-international-investment": {
+   "name": "British International Investment",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "proparco": {
+   "name": "Proparco",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "mckinsey-company": {
+   "name": "McKinsey & Company",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "boston-consulting-group": {
+   "name": "Boston Consulting Group",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "bain-company": {
+   "name": "Bain & Company",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "oliver-wyman": {
+   "name": "Oliver Wyman",
+   "sources": [
+    "lever:oliverwyman"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 2
+  },
+  "roland-berger": {
+   "name": "Roland Berger",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "kearney": {
+   "name": "Kearney",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "l-e-k-consulting": {
+   "name": "L.E.K. Consulting",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "arthur-d-little": {
+   "name": "Arthur D. Little",
+   "sources": [
+    "ashby:arthur"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 1
+  },
+  "strategy-pwc": {
+   "name": "Strategy& / PwC",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "ey-ey-parthenon": {
+   "name": "EY / EY-Parthenon",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "deloitte-monitor-deloitte": {
+   "name": "Deloitte / Monitor Deloitte",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "kpmg": {
+   "name": "KPMG",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "accenture-strategy": {
+   "name": "Accenture Strategy",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "alvarez-marsal": {
+   "name": "Alvarez & Marsal",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "alixpartners": {
+   "name": "AlixPartners",
+   "sources": [
+    "greenhouse:alixpartners"
+   ],
+   "matched": 2,
+   "errors": [],
+   "total": 134
+  },
+  "fti-consulting": {
+   "name": "FTI Consulting",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "eight-advisory": {
+   "name": "Eight Advisory",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "accuracy": {
+   "name": "Accuracy",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "kroll": {
+   "name": "Kroll",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "grant-thornton": {
+   "name": "Grant Thornton",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "bdo": {
+   "name": "BDO",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "forvis-mazars": {
+   "name": "Forvis Mazars",
+   "sources": [
+    "greenhouse:forvismazars"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 113
+  },
+  "afry": {
+   "name": "AFRY",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "aurora-energy-research": {
+   "name": "Aurora Energy Research",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "baringa": {
+   "name": "Baringa",
+   "sources": [
+    "greenhouse:baringa"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 101
+  },
+  "alphabet-google": {
+   "name": "Alphabet / Google",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "microsoft": {
+   "name": "Microsoft",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "amazon-aws": {
+   "name": "Amazon / AWS",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "meta": {
+   "name": "Meta",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "oracle": {
+   "name": "Oracle",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "equinix": {
+   "name": "Equinix",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "digital-realty": {
+   "name": "Digital Realty",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "airtrunk": {
+   "name": "AirTrunk",
+   "sources": [
+    "greenhouse:airtrunk"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 70
+  },
+  "st-telemedia-global-data-centres": {
+   "name": "ST Telemedia Global Data Centres",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "princeton-digital-group": {
+   "name": "Princeton Digital Group",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "vantage-data-centers": {
+   "name": "Vantage Data Centers",
+   "sources": [
+    "ashby:vantage"
+   ],
+   "matched": 0,
+   "errors": [],
+   "total": 7
+  },
+  "colt-data-centre-services": {
+   "name": "Colt Data Centre Services",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "engie": {
+   "name": "ENGIE",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "totalenergies": {
+   "name": "TotalEnergies",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "edf-edf-invest": {
+   "name": "EDF / EDF Invest",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "shell": {
+   "name": "Shell",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "bp": {
+   "name": "BP",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "sembcorp-industries": {
+   "name": "Sembcorp Industries",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "keppel": {
+   "name": "Keppel",
+   "sources": [],
+   "matched": 0,
+   "errors": [
+    "aucune source trouvée"
+   ]
+  },
+  "schneider-electric": {
+   "name": "Schneider Electric",
    "sources": [],
    "matched": 0,
    "errors": [
