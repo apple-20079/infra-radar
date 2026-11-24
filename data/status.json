@@ -1,5 +1,5 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "tiers": [
   1
  ],
@@ -49,9 +49,9 @@
    "sources": [
     "oracle:jpmc.fa.oraclecloud.com/CX_1001"
    ],
-   "matched": 6,
+   "matched": 5,
    "errors": [],
-   "total": 328
+   "total": 318
   },
   "morgan-stanley": {
    "name": "Morgan Stanley",
@@ -130,7 +130,7 @@
    ],
    "matched": 14,
    "errors": [],
-   "total": 123,
+   "total": 127,
    "sample": [
     "2027 Global Advisory Long Term Internship - Singapore",
     "Global Advisory - Spain - Madrid - Graduate 2027",
@@ -152,9 +152,9 @@
     "oracle:icbpjb.fa.ocs.oraclecloud.com/LazardProfessionalCareers",
     "oracle:icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers"
    ],
-   "matched": 4,
+   "matched": 6,
    "errors": [],
-   "total": 192
+   "total": 188
   },
   "evercore": {
    "name": "Evercore",
@@ -308,7 +308,7 @@
    ],
    "matched": 3,
    "errors": [],
-   "total": 132
+   "total": 128
   },
   "apollo-global-management": {
    "name": "Apollo Global Management",
@@ -343,7 +343,7 @@
    ],
    "matched": 0,
    "errors": [],
-   "total": 13
+   "total": 17
   },
   "brookfield-asset-management": {
    "name": "Brookfield Asset Management",
@@ -612,9 +612,9 @@
     "workday:cdpq.wd10.myworkdayjobs.com/CDPQ",
     "workday:cdpq.wd10.myworkdayjobs.com/CDPQ-recrutement-universitaire"
    ],
-   "matched": 1,
+   "matched": 0,
    "errors": [],
-   "total": 39
+   "total": 36
   },
   "psp-investments": {
    "name": "PSP Investments",
