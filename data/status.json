@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "tiers": [
   1
  ],
@@ -49,9 +49,9 @@
    "sources": [
     "oracle:jpmc.fa.oraclecloud.com/CX_1001"
    ],
-   "matched": 5,
+   "matched": 8,
    "errors": [],
-   "total": 318
+   "total": 291
   },
   "morgan-stanley": {
    "name": "Morgan Stanley",
@@ -130,7 +130,7 @@
    ],
    "matched": 14,
    "errors": [],
-   "total": 127,
+   "total": 123,
    "sample": [
     "2027 Global Advisory Long Term Internship - Singapore",
     "Global Advisory - Spain - Madrid - Graduate 2027",
@@ -154,7 +154,7 @@
    ],
    "matched": 6,
    "errors": [],
-   "total": 188
+   "total": 186
   },
   "evercore": {
    "name": "Evercore",
@@ -217,12 +217,12 @@
     "workday:hl.wd1.myworkdayjobs.com/Lateral",
     "workday:hl.wd1.myworkdayjobs.com/Corporate"
    ],
-   "matched": 0,
+   "matched": 1,
    "errors": [
-    "workday:hl.wd1.myworkdayjobs.com/Campus: HTTPError 429 Client Error: Too Many Requests for url: https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs",
     "workday:hl.wd1.myworkdayjobs.com/Lateral: HTTPError 429 Client Error: Too Many Requests for url: https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Lateral/jobs",
     "workday:hl.wd1.myworkdayjobs.com/Corporate: HTTPError 429 Client Error: Too Many Requests for url: https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Corporate/jobs"
-   ]
+   ],
+   "total": 47
   },
   "messier-associes": {
    "name": "Messier & Associés",
@@ -306,9 +306,9 @@
    "sources": [
     "greenhouse:stage"
    ],
-   "matched": 3,
+   "matched": 4,
    "errors": [],
-   "total": 128
+   "total": 125
   },
   "apollo-global-management": {
    "name": "Apollo Global Management",
@@ -343,7 +343,7 @@
    ],
    "matched": 0,
    "errors": [],
-   "total": 17
+   "total": 15
   },
   "brookfield-asset-management": {
    "name": "Brookfield Asset Management",
@@ -614,7 +614,7 @@
    ],
    "matched": 0,
    "errors": [],
-   "total": 36
+   "total": 38
   },
   "psp-investments": {
    "name": "PSP Investments",
