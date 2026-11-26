@@ -1,24 +1,7 @@
 {
- "generated": "2026-11-25T06:23:51Z",
- "count": 25,
+ "generated": "2026-11-26T06:23:07Z",
+ "count": 20,
  "jobs": [
-  {
-   "title": "6-Month Off-Cycle Internship - Corporate Finance (M&A)",
-   "location": "Paris, France",
-   "url": "https://hl.wd1.myworkdayjobs.com/en-US/Campus/job/Paris-France/XMLNAME-6-Month-Off-Cycle-Internship---Corporate-Finance--M-A-_R3334",
-   "posted": "2026-09-16",
-   "postedRaw": "Posted 30+ Days Ago",
-   "description": "Business Unit: Corporate Finance Industry: General&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broad international reach, and a partnership approach rooted in trust, the firm provides innovative, integrated solutions across mergers and acquisitions, capital solutions, financial restructuring, and financial and valuation advisory. Our unmatched transaction volumes provide differentiated, data-driven perspectives that help our clients achieve their most critical goals. To learn more about Houlihan Lokey, please visit HL.com.&#xa;&#xa; Corporate Finance The Houlihan Lokey Corporate Finance business has extensive expertise in mergers, acquisitions, divestitures, activist shareholder and takeover defense, and other related advisory services for a broad range of clients. In addition, we have the proven ability to engineer and execute financing solutions that are essential for growth and success and offer access to financing in the public and alternative capital markets through the issuance of debt, equity, or hybrid securities. In EMEA, we work with a wide spectrum of companies, from middle-market privately owned enterprises to large multinational organizations. With a growing platform of Corporate Finance professionals and offices across the region, in addition to our global reach and in-depth knowledge across a broad range of industries, we have the breadth and targeted expertise to provide exceptional client service.&#xa;&#xa; Houlihan Lokey offers 6-month internship opportunities throughout the year in our Paris office. Please note that we are currently hiring for Januar",
-   "firm": "Houlihan Lokey",
-   "firmId": "houlihan-lokey",
-   "category": "Boutiques M&A",
-   "tier": 1,
-   "ats": "workday",
-   "city": "Paris",
-   "id": "1b4a33f49946",
-   "firstSeen": "2026-11-25",
-   "startHints": []
-  },
   {
    "title": "2027 Asset Management Investments - Equities - Analyst Training Program - London",
    "location": "LONDON, LONDON, United Kingdom",
@@ -49,22 +32,6 @@
    "city": "New York",
    "id": "74cd960a6bdc",
    "firstSeen": "2026-11-23",
-   "startHints": []
-  },
-  {
-   "title": "CIB Sponsorships and Tickets Analyst",
-   "location": "New York, NY, United States",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210810499",
-   "posted": "2026-11-24",
-   "description": "Shape client experiences through strategic sponsorships and ticketed entertainment across North America.",
-   "firm": "J.P. Morgan",
-   "firmId": "j-p-morgan",
-   "category": "Banques",
-   "tier": 1,
-   "ats": "oracle",
-   "city": "New York",
-   "id": "a25474bcfe10",
-   "firstSeen": "2026-11-25",
    "startHints": []
   },
   {
@@ -260,36 +227,6 @@
    "startHints": []
   },
   {
-   "title": "2027 Five Arrows Private Equity Long Term Internship - London",
-   "location": "2027 Five Arrows Private Equity Long Term Internship - London https://www.rothschildandco.com/en/careers/students and graduates/opportunities/2027 five arrows private equity long term internship/",
-   "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/2027-five-arrows-private-equity-long-term-internship/",
-   "posted": null,
-   "firm": "Rothschild & Co",
-   "firmId": "rothschild-co",
-   "category": "Boutiques M&A",
-   "tier": 1,
-   "ats": "htmllist",
-   "city": "London",
-   "id": "35f3ccbb020b",
-   "firstSeen": "2026-11-13",
-   "startHints": []
-  },
-  {
-   "title": "2027 Global Advisory Central and Eastern European Long Term Internship - London",
-   "location": "2027 Global Advisory Central and Eastern European Long Term Internship - London https://www.rothschildandco.com/en/careers/students and graduates/opportunities/ga2027 global advisory central and eastern european long term internship london/",
-   "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/ga2027-global-advisory-central-and-eastern-european-long-term-internship-london/",
-   "posted": null,
-   "firm": "Rothschild & Co",
-   "firmId": "rothschild-co",
-   "category": "Boutiques M&A",
-   "tier": 1,
-   "ats": "htmllist",
-   "city": "London",
-   "id": "f787bd9ed326",
-   "firstSeen": "2026-11-13",
-   "startHints": []
-  },
-  {
    "title": "2027 UK Global Advisory Off-Cycle Internship",
    "location": "2027 UK Global Advisory Off-Cycle Internship https://www.rothschildandco.com/en/careers/students and graduates/opportunities/2027 uk global advisory off cycle internship/",
    "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/2027-uk-global-advisory-off-cycle-internship/",
@@ -301,21 +238,6 @@
    "ats": "htmllist",
    "city": "London",
    "id": "872824995ac9",
-   "firstSeen": "2026-11-13",
-   "startHints": []
-  },
-  {
-   "title": "Evergreen - 2027 Global Advisory Graduate Programme – London",
-   "location": "Evergreen - 2027 Global Advisory Graduate Programme – London https://www.rothschildandco.com/en/careers/students and graduates/opportunities/evergreen 2027 global advisory graduate programme london/",
-   "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/evergreen-2027-global-advisory-graduate-programme-london/",
-   "posted": null,
-   "firm": "Rothschild & Co",
-   "firmId": "rothschild-co",
-   "category": "Boutiques M&A",
-   "tier": 1,
-   "ats": "htmllist",
-   "city": "London",
-   "id": "c684e54ac5cf",
    "firstSeen": "2026-11-13",
    "startHints": []
   },
