@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-26T06:23:07Z",
- "count": 20,
+ "generated": "2026-11-27T06:25:54Z",
+ "count": 18,
  "jobs": [
   {
    "title": "2027 Asset Management Investments - Equities - Analyst Training Program - London",
@@ -51,22 +51,6 @@
    "startHints": []
   },
   {
-   "title": "Finance & Business Management - United States - 2027 ReEntry Program",
-   "location": "New York, NY, United States | Chicago, IL, United States | Jersey City, NJ, United States | Plano, TX, United States",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809512",
-   "posted": "2026-11-24",
-   "description": "Relaunch your career with our Global ReEntry Program",
-   "firm": "J.P. Morgan",
-   "firmId": "j-p-morgan",
-   "category": "Banques",
-   "tier": 1,
-   "ats": "oracle",
-   "city": "New York",
-   "id": "dc33fb99597a",
-   "firstSeen": "2026-11-25",
-   "startHints": []
-  },
-  {
    "title": "Investment Banking - DACH ECM - Analyst - London",
    "location": "LONDON, LONDON, United Kingdom",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210810854",
@@ -79,22 +63,6 @@
    "ats": "oracle",
    "city": "London",
    "id": "fe7e7054ee44",
-   "firstSeen": "2026-11-25",
-   "startHints": []
-  },
-  {
-   "title": "Investment Banking - Investment Grade Finance - Analyst",
-   "location": "NY, United States",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210811766",
-   "posted": "2026-11-24",
-   "description": "We are seeking an experienced Analyst to join our industry-leading Investment Grade Finance team.",
-   "firm": "J.P. Morgan",
-   "firmId": "j-p-morgan",
-   "category": "Banques",
-   "tier": 1,
-   "ats": "oracle",
-   "city": "New York",
-   "id": "c20842fbd88e",
    "firstSeen": "2026-11-25",
    "startHints": []
   },
