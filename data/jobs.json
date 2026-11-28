@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-27T06:25:54Z",
- "count": 18,
+ "generated": "2026-11-28T06:23:32Z",
+ "count": 16,
  "jobs": [
   {
    "title": "2027 Asset Management Investments - Equities - Analyst Training Program - London",
@@ -64,22 +64,6 @@
    "city": "London",
    "id": "fe7e7054ee44",
    "firstSeen": "2026-11-25",
-   "startHints": []
-  },
-  {
-   "title": "Relationship Partner Analyst - Paris",
-   "location": "Paris, France",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210805755",
-   "posted": "2026-11-23",
-   "description": "This is an exciting opportunity for you to join a dynamic, diverse team within the J.P Morgan’s French Private Banking business.",
-   "firm": "J.P. Morgan",
-   "firmId": "j-p-morgan",
-   "category": "Banques",
-   "tier": 1,
-   "ats": "oracle",
-   "city": "Paris",
-   "id": "448791d31740",
-   "firstSeen": "2026-11-24",
    "startHints": []
   },
   {
@@ -160,22 +144,6 @@
    "city": "New York",
    "id": "a72247994833",
    "firstSeen": "2026-11-19",
-   "startHints": []
-  },
-  {
-   "title": "Analyst - Geopolitical Advisory – London",
-   "location": "London, United Kingdom",
-   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6850",
-   "posted": "2026-11-23",
-   "description": "",
-   "firm": "Lazard",
-   "firmId": "lazard",
-   "category": "Boutiques M&A",
-   "tier": 1,
-   "ats": "oracle",
-   "city": "London",
-   "id": "dbc2a257d8d3",
-   "firstSeen": "2026-11-24",
    "startHints": []
   },
   {

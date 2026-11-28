@@ -1,5 +1,5 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "tiers": [
   1
  ],
@@ -49,9 +49,9 @@
    "sources": [
     "oracle:jpmc.fa.oraclecloud.com/CX_1001"
    ],
-   "matched": 5,
+   "matched": 4,
    "errors": [],
-   "total": 307
+   "total": 296
   },
   "morgan-stanley": {
    "name": "Morgan Stanley",
@@ -130,20 +130,20 @@
    ],
    "matched": 8,
    "errors": [],
-   "total": 89,
+   "total": 91,
    "sample": [
     "2027 Global Advisory Long Term Internship - Singapore",
     "Global Advisory - Spain - Madrid - Graduate 2027",
     "2027 Global Advisory Summer Internship Programme - Hong Kong",
     "Global Advisory - Spain - Madrid - Long Term Internship (6 months starting January or July 2027)",
+    "Leveraged Finance 2027 Summer Analyst Programme - London",
     "Germany - Frankfurt - Global Financing Solutions and Restructuring & Liability Management - Autumn Internship 2027",
     "Germany - Frankfurt - M&A and Strategic Advisory - Autumn Internship 2027",
     "Germany - Frankfurt - Global Financing Solutions and Restructuring & Liability Management - Spring Internship 2027",
     "Germany – Frankfurt – Global Markets Solutions – ECM – Summer Internship 2027",
     "US 2028 Global Advisory Summer Analyst - Global Markets Solutions, New York",
     "US Global Advisory | 2027 Sophomore Leadership Program",
-    "2027 UK Global Advisory Off-Cycle Internship",
-    "Global Advisory Internship - Poland 2027"
+    "2027 UK Global Advisory Off-Cycle Internship"
    ]
   },
   "lazard": {
@@ -152,9 +152,9 @@
     "oracle:icbpjb.fa.ocs.oraclecloud.com/LazardProfessionalCareers",
     "oracle:icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers"
    ],
-   "matched": 6,
+   "matched": 4,
    "errors": [],
-   "total": 182
+   "total": 180
   },
   "evercore": {
    "name": "Evercore",
@@ -613,8 +613,10 @@
     "workday:cdpq.wd10.myworkdayjobs.com/CDPQ-recrutement-universitaire"
    ],
    "matched": 0,
-   "errors": [],
-   "total": 33
+   "errors": [
+    "workday:cdpq.wd10.myworkdayjobs.com/CDPQ: HTTPError 500 Server Error: Internal Server Error for url: https://cdpq.wd10.myworkdayjobs.com/wday/cxs/cdpq/CDPQ/jobs",
+    "workday:cdpq.wd10.myworkdayjobs.com/CDPQ-recrutement-universitaire: HTTPError 500 Server Error: Internal Server Error for url: https://cdpq.wd10.myworkdayjobs.com/wday/cxs/cdpq/CDPQ-recrutement-univ"
+   ]
   },
   "psp-investments": {
    "name": "PSP Investments",
